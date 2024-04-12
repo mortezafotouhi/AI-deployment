@@ -1,0 +1,22 @@
+{
+  "about": "Please check the direction printed on your medicine container before taking your medicines. This module is not designed to replace or act as a reminder for your medication schedule.",
+  "configBody": {},
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "MedicationsV2",
+  "moduleName": "Medications",
+  "notificationData": {
+    "body": "Take your %time %medicationName",
+    "title": "Medications" 
+  },
+  "order": 2,
+  "ragThresholds": [],
+  "schedule": {
+    "friendlyText": "friendlyText",
+    "timesOfDay": []
+  },
+  "status": "ENABLED"
+}

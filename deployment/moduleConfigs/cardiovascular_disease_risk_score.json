@@ -1,0 +1,19 @@
+{
+  "about": "Individuals with this risk score have this percentage (%) of developing cardiovascular disease (CVD)* over the next 10 years. Several factors affect the risk prediction which are outlined in the contributors below. The algorithm is based on the data from 0.5M individuals in the UK Biobank.<br><br>*Cardiovascular disease (CVD) is defined as any of the following conditions: Coronary heart disease (including angina or heart attack), heart failure, stroke and mini-strokes.<br><br><b>This tool is intended for informational purposes only. It is not intended to provide a medical diagnosis, medical advice, or medical treatment. Contact your healthcare provider after using the tool to discuss your heart health or if you have any health concerns.</b>",
+  "configBody": {},
+  "order": 1,
+  "moduleId": "CVDRiskScore",
+  "moduleName": "Heart Health Risk",
+  "ragThresholds": [],
+  "notificationData": {
+    "title": "Tell us about your cardiovascular health",
+    "body": "Time to complete your CVD risk score questionnaire"
+  },
+  "schedule": {
+    "friendlyText": "friendlyText",
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "learnArticleIds": ["Talk to Your Doctor About Your Heart Health"]
+}

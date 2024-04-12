@@ -1,0 +1,836 @@
+{
+  "about": "The IKDC Questionnaire is a subjective scale that provides an overall function score. The questionnaire looks at 3 categories: symptoms, sports activity, and knee function.",
+  "configBody": {
+    "calculatedQuestionnaire": true,
+    "id": "ikdc_configbody",
+    "isForManager": false,
+    "maxScore": 100,
+    "name": "Knee Health - IKDC",
+    "pages": [
+      {
+        "description": "This survey asks for your view about your knee. This information will help your clinical team keep track of how you feel about your knee and how well you are able to do your usual activities.",
+        "displayInCP": false,
+        "id": "ikdc_info",
+        "order": 1,
+        "text": "<b>Knee Health Questionnaire</b>",
+        "type": "INFO"
+      },
+      {
+        "description": "Grade symptoms at the highest activity level at which you think you could function without significant symptoms, even if you are not actually performing activities at this level.",
+        "displayInCP": true,
+        "id": "ikdc_symptoms_info",
+        "order": 2,
+        "text": "Symptoms",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_symptoms_pain_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Very strenuous activities like jumping or pivoting as in gymnastics or football",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Strenuous activities like heavy physical work, skiing or tennis",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderate activities like moderate physical work, running or jogging",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Light activities like walking, housework or gardening",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to perform any of the above activities due to knee pain",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "What is the highest level of activity that you can perform without significant knee pain?"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "0 (constant) to 10 (never)",
+            "format": "SCALE",
+            "id": "ikdc_symptoms_pain_q2",
+            "logic": {
+              "isEnabled": false
+            },
+            "lowerBound": 0,
+            "order": 1,
+            "required": false,
+            "text": "During the <u>past 4 weeks</u>, or since your injury, how often have you had pain?",
+            "upperBound": 10
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "0 (worst pain imaginable) to 10 (no pain)",
+            "format": "SCALE",
+            "id": "ikdc_symptoms_pain_q3",
+            "logic": {
+              "isEnabled": false
+            },
+            "lowerBound": 0,
+            "order": 1,
+            "required": false,
+            "text": "If you have pain, how severe is it?",
+            "upperBound": 10
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_symptoms_stifness_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Mildly",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Very",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Extremely",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "During the <u>past 4 weeks</u>, or since your injury, how stiff or swollen has your knee been?"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_symptoms_swelling_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Very strenuous activities like jumping or pivoting as in gymnastics or football",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Strenuous activities like heavy physical work, skiing or tennis",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderate activities like moderate physical work, running or jogging",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Light activities like walking, housework or gardening",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to perform any of the above activities due to knee swelling",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "What is the highest level of activity you can perform without significant swelling in your knee?"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_symptoms_giveway_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "No",
+                "value": "1",
+                "weight": 1
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "During the <u>past 4 weeks</u>, or since your injury, has your knee locked or caught?"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_symptoms_giveway_q2",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Very strenuous activities like jumping or pivoting as in gymnastics or football",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Strenuous activities like heavy physical work, skiing or tennis",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderate activities like moderate physical work, running or jogging",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Light activities like walking, housework or gardening",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to perform any of the above activities due to giving way of the knee",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "What is the highest level of activity you can perform without significant giving way in your knee?"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Very strenuous activities like jumping or pivoting as in gymnastics or football",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Strenuous activities like heavy physical work, skiing or tennis",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderate activities like moderate physical work, running or jogging",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Light activities like walking, housework or gardening",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to perform any of the above activities due to knee swelling",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Sport activities"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q2",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to go up stairs?"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q3",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to go down stairs?"
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q4",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to kneel on the front of your knee?"
+          }
+        ],
+        "order": 13,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q5",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to squat?"
+          }
+        ],
+        "order": 14,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q6",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to sit with your knee bent?"
+          }
+        ],
+        "order": 15,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q7",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to rise from a chair?"
+          }
+        ],
+        "order": 16,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q8",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to run straight ahead?"
+          }
+        ],
+        "order": 17,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q9",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to Jump and land on your involved leg?"
+          }
+        ],
+        "order": 18,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "ikdc_sports_q10",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not difficult at all",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Minimally difficult",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Moderately difficult",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Extremely difficult",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Unable to do",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How does your knee affect your ability to stop and start quickly?"
+          }
+        ],
+        "order": 19,
+        "type": "QUESTION"
+      },
+      {
+        "description": "How would you rate the function of your knee on a scale of 0 to 10 with 10 being normal, excellent function and 0 being the inability to perform any of your usual daily activities which may include sport?",
+        "displayInCP": true,
+        "id": "ikdc_function_info",
+        "order": 20,
+        "text": "Function",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "0 (Couldn\u2019t perform daily activities) to 10 (No limitation in daily activities)",
+            "format": "SCALE",
+            "id": "ikdc_function_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "lowerBound": 0,
+            "order": 1,
+            "required": false,
+            "skipCalculation": true,
+            "text": "Function prior to your knee injury:",
+            "upperBound": 10
+          }
+        ],
+        "order": 21,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "0 (Couldn\u2019t perform daily activities) to 10 (No limitation in daily activities)",
+            "format": "SCALE",
+            "id": "ikdc_function_q2",
+            "logic": {
+              "isEnabled": false
+            },
+            "lowerBound": 0,
+            "order": 1,
+            "required": false,
+            "text": "Current function of your knee:",
+            "upperBound": 10
+          }
+        ],
+        "order": 22,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "OJ",
+    "questionnaireId": "ikdc_module",
+    "questionnaireName": "Knee Health - IKDC",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "ikdc_submission",
+      "order": 51,
+      "text": "You\u2019ve completed the questionnaire.",
+      "type": "SUBMISSION"
+    }
+  },
+  "moduleId": "KneeHealthIKDC",
+  "moduleName": "Knee Health - IKDC",
+  "notificationData": {
+    "body": "Knee health - IKDC",
+    "title": "Tell us how your knee is feeling"
+  },
+  "order": 4,
+  "ragThresholds": [
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 100.0,
+          "minValue": 80.0
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 80.0,
+          "minValue": 51.0
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 50.0
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "friendlyText": "AS NEEDED"
+  },
+  "shortModuleName": "IKDC",
+  "status": "ENABLED"
+}

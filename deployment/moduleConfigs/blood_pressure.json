@@ -1,0 +1,69 @@
+{
+  "moduleId": "BloodPressure",
+  "status": "ENABLED",
+  "order": 5,
+  "configBody": {},
+  "about": "Maintaining normal blood pressure is important for staying healthy.  Although some change during the day is normal, having a regularly high blood pressure increases your risk of serious medical problems in the future. Measuring your blood pressure at home gives your care team extra information about your health which can be used to give insight into your condition and inform your care.",
+  "schedule": {
+    "friendlyText": "friendlyText"
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 81,
+          "maxValue": 90
+        },
+        {
+          "minValue": 150,
+          "maxValue": 169
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "systolicValue",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 91,
+          "maxValue": 149
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "systolicValue",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 170
+        },
+        {
+          "maxValue": 80
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "systolicValue",
+      "enabled": true
+    }
+  ],
+  "version": 32,
+  "footnote": {
+    "enabled": false,
+    "text": ""
+  },
+  "learnArticleIds": [],
+  "notificationData": {
+    "title": "Blood Pressure",
+    "body": "Time to submit data for Blood Pressure.",
+    "offline": false
+  },
+  "moduleName": ""
+}

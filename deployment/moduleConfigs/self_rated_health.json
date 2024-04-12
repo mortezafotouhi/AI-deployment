@@ -1,0 +1,129 @@
+{
+  "moduleId": "SelfRatedHealth",
+  "moduleName": "",
+  "status": "ENABLED",
+  "order": 15,
+  "configBody": {
+    "buttons": [
+      {
+        "text": "Next",
+        "type": "NEXT"
+      },
+      {
+        "text": "Submit",
+        "type": "SUBMIT"
+      }
+    ],
+    "id": "SelfRatedHealth",
+    "isForManager": false,
+    "maxScore": 5,
+    "name": "Self-Rated Health",
+    "pages": [
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_srh_health",
+            "options": [
+              {
+                "label": "Excellent",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Very good",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Good",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Fair",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Poor",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "In general, how would you rate your physical health?"
+          }
+        ],
+        "order": 1,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "RT",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change your answers. Proceed to submit when you are ready.",
+      "id": "hu_srh_submission",
+      "order": 2,
+      "text": "Submit below to complete the activity.",
+      "type": "SUBMISSION"
+    }
+  },
+  "about": "Self-Rated Health is a single question that captures how healthy you think you are.",
+  "schedule": {
+    "isoDuration": "P1D",
+    "timesPerDuration": 1,
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": []
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 2.5
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 2.5,
+          "maxValue": 3.5
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 3.5,
+          "maxValue": 5.5
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 4,
+  "notificationData": {
+    "title": "Self-Rated Health",
+    "body": "Tell us how you are feeling today",
+    "offline": false
+  },
+  "localizationPrefix": "hu_srh"
+}

@@ -1,0 +1,47 @@
+{
+    "about": "1. Where possible use a digital bathroom scale.\n2.If you have a spring-type scale, check the needle is on 0 before beginning.\n3. Place scale on firm and flat flooring rather than carpet.\n4. Remove shoes and heavy clothing and items from your pockets.\n5. When ready, stand with both feet in centre of the scale and stay still on the scale. When the digital screen or needle settles, record the measurement.\n6. Record the weight in kilograms to the nearest decimal (e.g. 84.2kg).\n7. Please try to take subsequent measurements at approximately at the same time of day and under the same conditions.",
+    "configBody": {},
+    "order": 26,
+    "moduleId": "Weight",
+    "moduleName": "",
+    "ragThresholds": [
+        {
+            "color": "#FFDA9F",
+            "enabled": true,
+            "fieldName": "value",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "maxValue": -6,
+                    "minValue": -20
+                },
+                {
+                    "maxValue": 20,
+                    "minValue": 6
+                }
+            ],
+            "type": "CHANGE_PERCENT"
+        },
+        {
+            "color": "#CBEBF0",
+            "enabled": true,
+            "fieldName": "value",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "maxValue": 5,
+                    "minValue": -5
+                }
+            ],
+            "type": "CHANGE_PERCENT"
+        }
+    ],
+    "schedule": {
+        "friendlyText": "friendlyText",
+        "isoDuration": "P1M",
+        "timesOfDay": [],
+        "timesPerDuration": 1
+    },
+    "status": "ENABLED",
+    "customUnit": "St and lbs"
+}

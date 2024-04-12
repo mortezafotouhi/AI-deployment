@@ -1,0 +1,33 @@
+{
+	"name": "AI Deployment",
+	"status": "DEPLOYED",
+	"color": "0x007AFF",
+
+	"keyActionsEnabled": true,
+	"privacyPolicyUrl": "https://storage.googleapis.com/hu-deployment-static-content/discovernow/Huma%20App%20Privacy%20Notice%20-%20Discover%20Now.pdf",
+	"termAndConditionUrl": "https://medopad.com/medopad_Ltd/EULA.pdf",
+	"eulaUrl": "https://medopad.com/medopad_Ltd/EULA.pdf",
+	"features": {
+		"appointment": true,
+		"bulkAction": {
+      		"enabled": true
+    	},
+		"healthDeviceIntegration": false
+	},
+	"profile": {
+		"fields": {
+			"dateOfBirth": true,
+			"gender": true,
+			"height": true,
+			"race": true,
+			"extraIds": {
+				"nhsId": true
+			},
+			"mandatoryOnboardingFields": [
+				"dateOfBirth",
+				"gender",
+				"height"
+			]
+		}
+	}
+}

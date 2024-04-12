@@ -1,0 +1,63 @@
+{
+  "about": "<div>Using a pulse-oximeter is a quick and painless way to measure the oxygen levels in your blood. This gives a good indication of how well your heart and lungs are working. A normal level is typically between 95-100% but can be lower if you have chronic lung disease. </div><br><br><div>Use this feature to share the results with your care team. Make sure you are not wearing any dark nail polish as it can cause inaccurate readings.</div>",
+  "configBody": {
+    "dataSource": {
+      "fitbitCollection": true
+    }
+  },
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "OxygenSaturation",
+  "notificationData": {
+     "title": "Oxygen Saturation",
+    "body": "Time to submit data for Oxygen Saturation"
+  },
+  "order": 6,
+  "ragThresholds": [
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 0.93,
+          "minValue": 0.90
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 0.89
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0.94
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED"
+}

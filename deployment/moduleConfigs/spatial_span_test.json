@@ -1,0 +1,69 @@
+{
+  "moduleId": "SpatialSpaniOS",
+  "status": "ENABLED",
+  "order": 10,
+  "configBody": {
+    "gameSettings": {
+      "initialSpan": 3,
+      "maximumConsecutiveFailures": 3,
+      "maximumSpan": 15,
+      "maximumTests": 5,
+      "minimumSpan": 2,
+      "playSpeed": 1
+    }
+  },
+  "about": "Spatial span test consists on the tasks where user is requested to watch the lightened figures and then repeat the order in which the figures where lightened up. The complexity to the task increases as the test progress. The time spent on the tasks is counted as the result.",
+  "schedule": {
+    "isoDuration": "P1D",
+    "timesPerDuration": 3,
+    "friendlyText": "friendlyText",
+    "timesOfDay": []
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 200,
+          "maxValue": 350
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 100,
+          "maxValue": 199
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 99
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 4,
+  "notificationData": {
+    "title": "Spatial Span Test",
+    "body": "Time to take Spatial Span Test",
+    "offline": false
+  }
+}

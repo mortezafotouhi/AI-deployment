@@ -1,0 +1,59 @@
+{
+    "enabled": "ENABLED",
+    "instituteFullName": "string",
+    "instituteName": "string",
+    "instituteTextDetails": "string",
+    "signature": {
+      "signatureTitle": "Signature",
+      "signatureDetails": "Please sign using your finger below as you would in a clinical setting to provide consent.",
+      "nameTitle": "Consent",
+      "nameDetails": "Please fill in your details and click Next.",
+      "hasMiddleName": false
+    },
+    "sections": [
+      {
+        "type": "OVERVIEW",
+        "title": "Your data",
+        "details": "We recognise the importance of processing and protecting your personal and health information responsibly and securely. For further information on how Huma process your personal information, please refer to <a href=\"https://storage.googleapis.com/hu-deployment-static-content/janssen/HUMA%20PRIVACY%20POLICY%20(FINAL%2011.19.2021).pdf\">Privacy Policy</a>."
+      },
+      {
+        "type": "DATA_PROCESSING",
+        "title": "Consent",
+        "details": "In order for you to register and use the Huma app, your consent is required.",
+        "options": [
+          {
+            "type": 0,
+            "order": 0,
+            "text": "I consent to Huma processing my personal data, including health information, for the purposes of using the Huma app, as described in the <a href=\"https://storage.googleapis.com/hu-deployment-static-content/janssen/HUMA%20PRIVACY%20POLICY%20(FINAL%2011.19.2021).pdf\">Privacy Policy</a>"
+          },
+          {
+            "type": 1,
+            "order": 1,
+            "text": "I agree to the <a href=\"https://storage.googleapis.com/hu-deployment-static-content/janssen/HUMA%20APP%20PILOT%20TOU_FOR%20PILOT%20USE%20ONLY_(FINAL%2011.19.2021).pdf\">Terms & Conditions</a>"
+          }
+        ]
+      },
+      {
+        "type": "SHARING",
+        "title": "Data sharing",
+        "details": "Your de-identified health information is extremely valuable in helping researchers learn more about population health, early disease detection, and patterns in disease progression. Using digital technologies, we believe we can identify patterns to help clinicians take more informed decisions on our health. We de-identify your data by removing identifiable information, such as name, mobile number and email.",
+        "options": [
+          {
+            "type": 0,
+            "order": 0,
+            "text": "I agree that my de-identified data may be used by Huma and Janssen Neurosciences for research and may also be shared with approved research partners to improve health services and products to the public."
+          },
+          {
+            "type": 1,
+            "order": 1,
+            "text": "I agree that my de-identified data may be used by Huma and Janssen Neurosciences for research as part of this study only."
+          }
+        ]
+      },
+      {
+        "type": "FEEDBACK",
+        "title": "Feedback",
+        "details": "As part of this study, you may be contacted to provide feedback on your experiences either using the HUMA app or being part of the remote patient monitoring programme."
+      }
+    ]
+  }

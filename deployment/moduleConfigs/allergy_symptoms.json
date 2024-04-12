@@ -1,0 +1,231 @@
+{
+  "configBody": {
+    "calculatedQuestionnaire": false,
+    "id": "d1e740a3-214e-40af-b6c1-37dcc70f1c7e",
+    "isForManager": false,
+    "isHorizontal": false,
+    "isOnboarding": false,
+    "name": "Allergy Symptoms",
+    "pages": [
+      {
+        "description": "On the following screens, please tap the statement that best describes how you’ve felt over the last 7 days.",
+        "id": "37750bb6-bf77-4b97-aa47-a0c4f7aa70a1",
+        "order": 1,
+        "text": "Allergy Symptoms",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "a5d67513-2d6e-4a68-9f90-97ea4a271189",
+            "logic": {
+              "isEnabled": true,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              },
+              "rules": [
+                {
+                  "anyOf": [
+                    {
+                      "eq": "2",
+                      "questionId": "a5d67513-2d6e-4a68-9f90-97ea4a271189"
+                    }
+                  ],
+                  "jumpToId": "834f327f-87be-4e17-a60e-38e1e3b5ab9c"
+                }
+              ]
+            },
+            "options": [
+              {
+                "label": "Yes",
+                "value": "1"
+              },
+              {
+                "label": "No",
+                "value": "2"
+              }
+            ],
+            "order": 2,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you experienced symptoms caused by allergies in the past 7 days?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 2,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the options which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "79d82723-ca4f-4cd4-b1ce-0548157c5ffe",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "Cough",
+                "value": "1"
+              },
+              {
+                "label": "Wheeze",
+                "value": "2"
+              },
+              {
+                "label": "Shortness of breath",
+                "value": "3"
+              },
+              {
+                "label": "Sneezing",
+                "value": "4"
+              },
+              {
+                "label": "Nasal congestion",
+                "value": "5"
+              },
+              {
+                "label": "Itchy/ Watery Eyes",
+                "value": "6"
+              },
+              {
+                "label": "Hives/ Swelling",
+                "value": "7"
+              },
+              {
+                "label": "Fatigue",
+                "value": "8"
+              },
+              {
+                "label": "Phlegm /Sputum (color)",
+                "value": "9"
+              },
+              {
+                "label": "Other",
+                "value": "10"
+              }
+            ],
+            "order": 3,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What were your allergy symptoms in the last 7 days?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the options which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "c08049eb-4b96-4601-81c5-3c696f0a77f4",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "Grass/ Hay",
+                "value": "1"
+              },
+              {
+                "label": "Mold and mildew",
+                "value": "2"
+              },
+              {
+                "label": "Cats/Dogs",
+                "value": "3"
+              },
+              {
+                "label": "Other Animals",
+                "value": "4"
+              },
+              {
+                "label": "Dust",
+                "value": "5"
+              },
+              {
+                "label": "Smoke",
+                "value": "6"
+              },
+              {
+                "label": "Pollution",
+                "value": "7"
+              },
+              {
+                "label": "Weather",
+                "value": "8"
+              },
+              {
+                "label": "Exercise",
+                "value": "9"
+              },
+              {
+                "label": "Other",
+                "value": "10"
+              }
+            ],
+            "order": 4,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "If you experienced allergy symptoms in the last 7 days, what do you think they were triggered by?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      }
+    ],
+    "scoreAvailable": false,
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "834f327f-87be-4e17-a60e-38e1e3b5ab9c",
+      "order": 5,
+      "text": "You’ve completed the questionnaire.",
+      "type": "SUBMISSION"
+    }
+  },
+  "footnote": {
+    "enabled": true,
+    "text": "For use only by patients of AIAMG deemed suitable by, and under the supervision of a AIAMG physician"
+  },
+  "learnArticleIds": [],
+  "moduleId": "Questionnaire",
+  "moduleName": "Allergy Symptoms",
+  "notificationData": {},
+  "order": 20,
+  "ragThresholds": [],
+  "schedule": {
+    "timesOfDay": []
+  },
+  "status": "ENABLED"
+}

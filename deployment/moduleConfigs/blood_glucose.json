@@ -1,0 +1,61 @@
+{
+   "about": "High blood sugar (hyperglycaemia) can cause life-threatening complications and damage to parts of the body such as the eyes, kidneys and blood vessels. It is important to try and keep blood glucose levels as close to normal (70-129 mg/dL) as possible. Use this space to record your blood glucose readings as directed by your doctor.",
+   "configBody": {},
+   "order": 6,
+   "moduleId": "BloodGlucose",
+   "moduleName": "",
+   "customUnit": "mg/dL",
+   "ragThresholds": [
+      {
+         "color": "#FBCCD7",
+         "enabled": true,
+         "fieldName": "value",
+         "severity": 3,
+         "thresholdRange": [
+            {
+               "maxValue": 2.9
+            },
+            {
+               "minValue": 11.1
+            }
+         ],
+         "type": "VALUE"
+      },
+      {
+         "color": "#FFDA9F",
+         "enabled": true,
+         "fieldName": "value",
+         "severity": 2,
+         "thresholdRange": [
+            {
+               "maxValue": 3.9,
+               "minValue": 3.0
+            },
+            {
+               "maxValue": 11.0,
+               "minValue": 7.1
+            }
+         ],
+         "type": "VALUE"
+      },
+      {
+         "color": "#CBEBF0",
+         "enabled": true,
+         "fieldName": "value",
+         "severity": 1,
+         "thresholdRange": [
+            {
+               "maxValue": 7.0,
+               "minValue": 4.0
+            }
+         ],
+         "type": "VALUE"
+      }
+   ],
+   "schedule": {
+      "friendlyText": "friendlyText",
+      "timesOfDay": [],
+      "timesPerDuration": 0
+   },
+   "status": "ENABLED"
+}

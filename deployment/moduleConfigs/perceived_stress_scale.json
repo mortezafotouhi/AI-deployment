@@ -1,0 +1,78 @@
+{
+  "moduleId": "PerceivedStressScale",
+  "moduleName": "",
+  "localizationPrefix": "hu_pss_",
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 13
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 14,
+          "maxValue": 26
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 27,
+          "maxValue": 40
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "schedule": {
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "notificationData": {
+    "title": "hu_pss_reminder_title",
+    "body": "hu_pss_reminder_body"
+  },
+  "status": "ENABLED",
+  "about": "hu_pss_about",
+  "order": 10,
+  "configBody": {
+    "id": "pss_configbody",
+    "isForManager": false,
+    "publisherName": "SK",
+    "questionnaireName": "hu_pss_name",
+    "name": "hu_pss_name",
+    "maxScore": 40,
+    "calculatedQuestionnaire": true,
+    "questionnaireId": "pss_module",
+    "pages": [],
+    "submissionPage": {
+      "type": "SUBMISSION",
+      "name": "Perceived Stress Scale",
+      "id": "pss_submission",
+      "order": 12,
+      "text": "hu_pss_submission_text",
+      "buttonText": "hu_pss_submit_button",
+      "description": "hu_pss_submission_description"
+    }
+  }
+}

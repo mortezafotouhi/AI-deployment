@@ -1,0 +1,99 @@
+{
+    "moduleId": "OxfordKneeScore",
+    "moduleName": "",
+    "shortModuleName": "OKS",
+    "about": "It’s important for your care team to know how well your knee is working and if it is getting better or worse. This short questionnaire asks you about how your knee is working and feeling in every day activities. A higher score is better, and the maximum score is 48. This questionnaire is the Oxford Knee Score.",
+    "notificationData": {
+        "title": "Tell us how your knee is feeling",
+        "body": "Oxford Knee Score"
+    },
+    "configBody": {
+        "maxScore": 48
+    },
+    "schedule": {
+        "isoDuration": "P1W",
+        "timesPerDuration": 1,
+        "timesOfDay": [
+            "BEFORE_DINNER"
+        ]
+    },
+    "status": "ENABLED",
+    "ragThresholds": [
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 19.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "leftKneeScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 19.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "rightKneeScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 20.0,
+                    "maxValue": 29.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "leftKneeScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 20.0,
+                    "maxValue": 29.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "rightKneeScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 30.0,
+                    "maxValue": 39.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "leftKneeScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 30.0,
+                    "maxValue": 39.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "rightKneeScore",
+            "enabled": true
+        }
+    ]
+}

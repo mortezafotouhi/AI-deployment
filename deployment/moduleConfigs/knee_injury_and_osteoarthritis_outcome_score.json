@@ -1,0 +1,1990 @@
+{
+  "moduleId": "KOOS",
+  "moduleName": "Knee injury and Osteoarthritis Outcome Score",
+  "status": "ENABLED",
+  "order": 45,
+  "configBody": {
+    "id": "koos_configbody",
+    "isForManager": false,
+    "name": "KOOS Knee Survey",
+    "pages": [
+      {
+        "description": "Answer every question by selecting the appropriate response, only one response for each question. If you are unsure about how to answer a question, please  give the best answer you can.",
+        "displayInCP": false,
+        "id": "koos_womac_info",
+        "order": 1,
+        "text": "<b>Knee injury and Osteoarthritis Outcome Score (KOOS)</b>",
+        "type": "INFO"
+      },
+      {
+        "description": "These questions should be answered thinking of your knee symptoms during the last week.",
+        "displayInCP": true,
+        "id": "koos_symptoms",
+        "order": 2,
+        "text": "Symptoms",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_knee_swelling",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Rarely",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Often",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Always",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Do you have swelling in your knee?"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_knee_noise",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Rarely",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Often",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Always",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Do you feel grinding, hear clicking or any other type of noise when your knee moves?"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_knee_hangup",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Rarely",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Often",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Always",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Does your knee catch or hang up when moving?"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_knee_straighten",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Always",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Often",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Rarely",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Never",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Can you straighten your knee fully?"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_knee_bend",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Always",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Often",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Rarely",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Never",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Can you bend your knee fully?"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "description": "The following questions concern the amount of joint stiffness you have experienced during the last week in your knee. Stiffness is a sensation of restriction or slowness in the ease with which you move your knee joint.",
+        "displayInCP": true,
+        "id": "koos_stiffness",
+        "order": 8,
+        "text": "Stiffness",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_wakening",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How severe is your knee joint stiffness after first wakening in the morning?"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_symptom_sitting",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How severe is your knee stiffness after sitting, lying or resting later in the day?"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "description": "The following questions concern the amount of pain you experience in your knee.",
+        "displayInCP": true,
+        "id": "koos_pain",
+        "order": 11,
+        "text": "Pain",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_experience",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Monthly",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Weekly",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Daily",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Always",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How often do you experience knee pain?"
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      },
+      {
+        "description": "What amount of knee pain have you experienced the last week during the following activities?",
+        "displayInCP": true,
+        "id": "koos_pain_info",
+        "order": 13,
+        "text": " ",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_activities",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Twisting/pivoting on your knee"
+          }
+        ],
+        "order": 14,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_straightening",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Straightening knee fully"
+          }
+        ],
+        "order": 15,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_bending",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Bending knee fully"
+          }
+        ],
+        "order": 16,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_flat_surface",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Walking on flat surface"
+          }
+        ],
+        "order": 17,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_going_updown",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Going up or down stairs"
+          }
+        ],
+        "order": 18,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_at_night",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "At night while in bed"
+          }
+        ],
+        "order": 19,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_sitting_lying",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Sitting or lying"
+          }
+        ],
+        "order": 20,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_pain_upright",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Standing upright"
+          }
+        ],
+        "order": 21,
+        "type": "QUESTION"
+      },
+      {
+        "description": "The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in  the last week due to your knee.",
+        "displayInCP": true,
+        "id": "koos_function_daily_living",
+        "order": 22,
+        "text": "Function, daily living",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_descending_stairs",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Descending stairs"
+          }
+        ],
+        "order": 23,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_ascending_stairs",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Ascending stairs"
+          }
+        ],
+        "order": 24,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_rising",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Rising from sitting"
+          }
+        ],
+        "order": 25,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_standing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Standing"
+          }
+        ],
+        "order": 26,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_pickup_object",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Bending to floor/pick up an object"
+          }
+        ],
+        "order": 27,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_flat_surface",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Walking on flat surface"
+          }
+        ],
+        "order": 28,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_in_out",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Getting in/out of car"
+          }
+        ],
+        "order": 29,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_shopping",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Going shopping"
+          }
+        ],
+        "order": 30,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_stockings",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Putting on socks/stockings"
+          }
+        ],
+        "order": 31,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_rising_bed",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Rising from bed"
+          }
+        ],
+        "order": 32,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_stockings_off",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Taking off socks/stockings"
+          }
+        ],
+        "order": 33,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_lying_bed",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Lying in bed (turning over, maintaining knee position)"
+          }
+        ],
+        "order": 34,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_bath",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Getting in/out of bath"
+          }
+        ],
+        "order": 35,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_sitting",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Sitting"
+          }
+        ],
+        "order": 36,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_toilet",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Getting on/off toilet"
+          }
+        ],
+        "order": 37,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_heavy_duties",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Heavy domestic duties (moving heavy boxes, scrubbing floors, etc)"
+          }
+        ],
+        "order": 38,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_function_light_duties",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Light domestic duties (cooking, dusting, etc)"
+          }
+        ],
+        "order": 39,
+        "type": "QUESTION"
+      },
+      {
+        "description": "The following questions concern your physical function when being active on a higher level. The questions should be answered thinking of what degree of difficulty you have experienced during the last week due to your knee.",
+        "displayInCP": true,
+        "id": "koos_sports_recreational",
+        "order": 40,
+        "text": "Function, sports and recreational activities",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_sports_squatting",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Squatting "
+          }
+        ],
+        "order": 41,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_sports_running",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Running"
+          }
+        ],
+        "order": 42,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_sports_jumping",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Jumping"
+          }
+        ],
+        "order": 43,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_sports_pivoting",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Twisting/pivoting on your injured knee"
+          }
+        ],
+        "order": 44,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_sports_kneeling",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Kneeling"
+          }
+        ],
+        "order": 45,
+        "type": "QUESTION"
+      },
+      {
+        "description": "The following questions concern the impact of your knee on your quality of life.",
+        "displayInCP": true,
+        "id": "koos_quality_of_life",
+        "order": 46,
+        "text": "Quality of life",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_quality_often_aware",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Monthly",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Weekly",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Daily",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Constantly",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How often are you aware of your knee problem?"
+          }
+        ],
+        "order": 47,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_quality_modified_lifestyle",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mildly",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderately",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severely",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Totally",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you modified your life style to avoid potentially damaging activities to your knee?"
+          }
+        ],
+        "order": 48,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_quality_lack_confidence",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mildly",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderately",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severely",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extremely",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How much are you troubled with lack of confidence in your knee?"
+          }
+        ],
+        "order": 49,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "koos_quality_general_dificulty",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mild",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Moderate",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Severe",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Extreme",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "In general, how much difficulty do you have with your knee?"
+          }
+        ],
+        "order": 50,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "SA",
+    "questionnaireId": "koos_womac_module",
+    "questionnaireName": "KOOS Knee Survey",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers.",
+      "id": "koos_submission",
+      "order": 51,
+      "text": "You've completed the questionnaire.",
+      "type": "SUBMISSION"
+    }
+  },
+  "about": "This survey asks for your view about your knee. This information will help your clinician keep track of how you feel about your knee and how well you are able to perform your usual activities.",
+  "schedule": {
+    "timesPerDuration": 0,
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": []
+  },
+  "ragThresholds": [],
+  "version": 9,
+  "notificationData": {
+    "title": "Record KOOS",
+    "body": "KOOS Knee Survey"
+  }
+}

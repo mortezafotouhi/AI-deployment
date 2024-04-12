@@ -1,0 +1,52 @@
+{
+  "about": "Respiratory rate is the number of breaths that you take and is measured by counting how many times your chest rises in one minute. Respiratory rate can increase due to illness such as fever, coughs and colds.",
+  "configBody": {
+    "dataSource": {
+      "fitbitCollection": true
+    }
+  },
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "RespiratoryRate",
+  "notificationData": {},
+  "order": 7,
+  "ragThresholds": [
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 11
+        },
+        {
+          "minValue": 21
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 20,
+          "minValue": 12
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

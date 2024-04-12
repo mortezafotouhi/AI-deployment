@@ -1,0 +1,22 @@
+{
+  "moduleId": "OxfordShoulderScore",
+  "moduleName": "Oxford Shoulder Score",
+  "shortModuleName": "OSS",
+  "status": "ENABLED",
+  "order": 71,
+  "configBody": {},
+  "about": "It's important for your care team to know how well your shoulder is working and if it is getting better or worse. This short questionnaire asks you about how your shoulder is working and feeling in every day activities. A higher score is better, and the maximum score is 48. This questionnaire is the Oxford Shoulder Score.",
+  "schedule": {
+    "isoDuration": "P1W",
+    "friendlyText": "friendlyText",
+    "timesOfDay": []
+  },
+  "ragThresholds": [],
+  "learnArticleIds": [],
+  "version": 5,
+  "notificationData": {
+    "title": "Tell us how your shoulder is feeling",
+    "body": "Oxford Shoulder Score"
+  },
+  "localizationPrefix": "hu_oss_"
+}

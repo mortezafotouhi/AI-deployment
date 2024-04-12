@@ -1,0 +1,14 @@
+{
+    "about": "Use this feature to share relevant photos securely with your care team. You can take a picture of your wound or upload previous clinic letters, recent investigation results, or anything else you would like your care team to be aware of.",
+    "configBody": {},
+    "order": 4,
+    "moduleId": "Photo",
+    "moduleName": "Photo",
+    "ragThresholds": [],
+    "schedule": {
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "status": "ENABLED"
+}

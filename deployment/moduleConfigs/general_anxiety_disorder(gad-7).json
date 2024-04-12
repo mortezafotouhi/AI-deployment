@@ -1,0 +1,361 @@
+{
+  "moduleId": "GeneralAnxietyDisorder",
+  "moduleName": "Anxiety Level - GAD-7",
+  "status": "ENABLED",
+  "order": 17,
+  "configBody": {
+    "id": "eeb23d05-d23f-4eb7-ad57-52d70a8edd29",
+    "isForManager": false,
+    "name": "Anxiety Level - GAD-7",
+    "pages": [
+      {
+        "description": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+        "id": "10dcb781-990a-4c04-94ae-3a37aa93ecf0",
+        "order": 1,
+        "text": "Anxiety level",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by feeling nervous, anxious or on edge?",
+            "format": "TEXTCHOICE",
+            "id": "d571d295-9da6-4583-98dc-db92126a4f34",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 2,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by not being able to stop or control worrying?",
+            "format": "TEXTCHOICE",
+            "id": "12ed5202-e636-4929-8d31-6ecdec107cee",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by worrying too much about different things?",
+            "format": "TEXTCHOICE",
+            "id": "181c7bf0-e765-45e9-894b-805ff65c529a",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you had trouble relaxing?",
+            "format": "TEXTCHOICE",
+            "id": "359501cb-60cf-4307-b3e5-2aaa8d1949ef",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by being so restless that it is hard to sit still?",
+            "format": "TEXTCHOICE",
+            "id": "1739c17d-6bca-440d-a21a-565209700bfd",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by becoming easily annoyed or irritable?",
+            "format": "TEXTCHOICE",
+            "id": "707fbe5e-96bc-4b60-acd9-aeeaa9a1270d",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "How often have you been bothered by feeling afraid as if something awful might happen?",
+            "format": "TEXTCHOICE",
+            "id": "f1065a9d-2bb9-4f68-b143-9685a1bd80b1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Several days",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "More than half the days",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Nearly every day",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Over the last 2 weeks"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "AB",
+    "scoreAvailable": true,
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "46ccb786-bf1f-48af-bd19-14885579b6c7",
+      "order": 9,
+      "text": "You've completed the questionnaire",
+      "type": "SUBMISSION"
+    },
+    "trademarkText": ""
+  },
+  "about": "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life, however this area deals specifically with a condition called generalised anxiety disorder (GAD). GAD can cause people to feel anxious about a wide range of situations and issues. People with GAD feel anxious most days and often struggle to remember the last time they felt relaxed.",
+  "schedule": {
+    "friendlyText": "AS NEEDED"
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 9
+        }
+      ],
+      "color": "white",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 10,
+          "maxValue": 14
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 15
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 37,
+  "notificationData": {
+    "title": "Anxiety Level",
+    "body": "Time to take Anxiety Level questionnaire",
+    "offline": false
+  },
+  "localizationPrefix": "hu_gad7_"
+}

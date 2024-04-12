@@ -1,0 +1,58 @@
+{
+  "about": "Peak flow is a measure of how quickly you can blow air out of your lungs. A member of your care team will help you take this reading. The peak flow percentage result will take into account your gender, age and height before showing your calculated result as a percentage.",
+  "configBody": {},
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "PeakFlow",
+  "moduleName": "Peak Flow",
+  "notificationData": {},
+  "order": 3,
+  "ragThresholds": [
+  {
+    "color": "#FBCCD7",
+    "enabled": true,
+    "fieldName": "valuePercent",
+    "severity": 3,
+    "thresholdRange": [
+      {
+        "maxValue": 49.9
+      }
+    ],
+    "type": "VALUE"
+  },
+  {
+    "color": "#FFDA9F",
+    "enabled": true,
+    "fieldName": "valuePercent",
+    "severity": 2,
+    "thresholdRange": [
+      {
+        "maxValue": 80,
+        "minValue": 50
+      }
+    ],
+    "type": "VALUE"
+  },
+  {
+    "color": "#CBEBF0",
+    "enabled": true,
+    "fieldName": "valuePercent",
+    "severity": 1,
+    "thresholdRange": [
+      {
+        "minValue": 80.1
+      }
+    ],
+    "type": "VALUE"
+  }
+],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

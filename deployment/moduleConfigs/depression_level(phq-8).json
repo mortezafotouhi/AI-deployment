@@ -1,0 +1,374 @@
+{
+    "moduleId": "Questionnaire",
+    "moduleName": "Depression level - PHQ-8",
+    "shortModuleName": "Depression level - PHQ-8",
+    "ragThresholds": [
+        {
+            "color": "#FBCCD7",
+            "enabled": true,
+            "fieldName": "value",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 15,
+                    "maxValue": 24
+                }
+            ],
+            "type": "VALUE"
+        }, {
+            "color": "#FFDA9F",
+            "enabled": true,
+            "fieldName": "value",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 10,
+                    "maxValue": 14
+                }
+            ],
+            "type": "VALUE"
+        }, {
+            "color": "#CBEBF0",
+            "enabled": true,
+            "fieldName": "value",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 0,
+                    "maxValue": 9
+                }
+            ],
+            "type": "VALUE"
+        }
+    ],
+    "schedule": {
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "notificationData": {
+        "title": "Record depression level",
+        "body": "Depression level - PHQ-8"
+    },
+    "status": "ENABLED",
+    "about": "Depression is a low mood that can last a long time or keep returning, affecting your everyday life. It ranges from mild, moderate, to severe. When mild, depression can mean just feeling low — it doesn't stop you from leading a normal life but makes everything harder to do and seem less worthwhile. When depression is at its most severe it can be life-threatening because it can make you feel like taking your own life.\n\nDeveloped by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.",
+    "order": 10,
+    "configBody": {
+        "name": "Depression level - PHQ-8",
+        "id": "cd5cd5f6-8cbe-4b23-8838-18dbe45cbbdf",
+        "isForManager": false,
+        "publisherName": "SK",
+        "scoreAvailable": true,
+        "calculatedQuestionnaire": true,
+        "maxScore": 24,
+        "trademarkText": "",
+        "pages": [
+            {
+                "type": "INFO",
+                "id": "ef0969b8-7e52-45d5-8c6f-90ecc48fee81",
+                "order": 1,
+                "text": "<b>Depression level</b>",
+                "description": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+            },
+            {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "3a42a205-888c-476d-817b-8a8f229037e0",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Little interest or pleasure in doing things",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 2
+            },
+            {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "2ecc7a95-233b-4274-bd11-52cea200fcad",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Feeling down, depressed, or hopeless",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 3
+            },
+            {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "c7f20f15-e3e4-4a27-ae77-3fee5db762b4",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Trouble falling or staying asleep, or sleeping too much",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 4
+            }, {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "cd1e3bb4-ad0b-4fe5-96ce-e251dc5bfc04",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Feeling tired or having little energy",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 5
+            }, {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "114dc531-52ae-4b4c-ab04-85cc21b5a59e",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Poor appetite or overeating",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 6
+            }, {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "9a6f9a45-14b3-44e1-bcaa-89d0068f6067",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 7
+            }, {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "c1f5f4e0-22a3-4ac5-80a7-bdad7aef94e9",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 8
+            }, {
+                "type": "QUESTION",
+                "items": [
+                    {
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "description": "",
+                        "id": "fb2f09cb-8edc-4a00-beb9-0f5fccc1b880",
+                        "required": true,
+                        "format": "TEXTCHOICE",
+                        "order": 1,
+                        "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+                        "options": [
+                            {
+                                "label": "Not at all",
+                                "value": "0",
+                                "weight": 0
+                            }, {
+                                "label": "Several days",
+                                "value": "1",
+                                "weight": 1
+                            }, {
+                                "label": "More than half the days",
+                                "value": "2",
+                                "weight": 2
+                            }, {
+                                "label": "Nearly every day",
+                                "value": "3",
+                                "weight": 3
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ],
+                "order": 9
+            }
+        ],
+        "submissionPage": {
+            "description": "Scroll up to change any of your answers.",
+            "id": "05de4c33-6a23-45cd-8e19-f97a9026c6e5",
+            "text": "You've completed the questionnaire",
+            "buttonText": "Submit",
+            "order": 10,
+            "type": "SUBMISSION"
+        }
+    }
+}

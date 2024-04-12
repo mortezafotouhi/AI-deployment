@@ -1,0 +1,534 @@
+{
+  "about": "<div>The COPD Assessment Test (CAT) is a questionnaire for people with Chronic Obstructive Pulmonary Disease (COPD). It is designed to measure the impact of COPD on a person's life, and how this changes over time.<br></div>",
+  "configBody": {
+    "buttons": [
+      {
+        "text": "Common.Next",
+        "type": "NEXT"
+      },
+      {
+        "text": "hu_cat_submission_button",
+        "type": "SUBMIT"
+      }
+    ],
+    "calculatedQuestionnaire": true,
+    "id": "d57ec926-b14a-4870-b881-54d311a2b1a2",
+    "isForManager": false,
+    "isHorizontal": true,
+    "isOnboarding": false,
+    "maxScore": 40,
+    "name": "COPD Assessment Test (CAT)",
+    "pages": [
+      {
+        "description": "hu_cat_description",
+        "displayInCP": false,
+        "id": "hu_cat_info",
+        "name": "hu_cat_name",
+        "order": 1,
+        "type": "INFO"
+      },
+      {
+        "description": "hu_cat_description_two",
+        "displayInCP": false,
+        "id": "hu_cat_info_two",
+        "media": [
+          "https://storage.googleapis.com/hu-deployment-static-content/COPD%20Assessment%20Test/Logo.png"
+        ],
+        "mediaAlignment": "start",
+        "name": "hu_cat_name",
+        "order": 2,
+        "type": "INFO"
+      },
+      {
+        "description": "hu_cat_description_three",
+        "displayInCP": false,
+        "id": "hu_cat_info_three",
+        "name": "hu_cat_name",
+        "order": 3,
+        "text": "hu_cat_info_text",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_cough",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_cough_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_cough_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_cough_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_cough_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_cough_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_cough_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_mucus",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_mucus_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_mucus_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_mucus_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_mucus_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_mucus_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_mucus_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_chest_tight",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_chest_tight_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_chest_tight_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_chest_tight_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_chest_tight_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_chest_tight_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_chest_tight_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_breathless",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_breathless_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_breathless_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_breathless_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_breathless_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_breathless_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_breathless_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_activities",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_activities_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_activities_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_activities_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_activities_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_activities_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_activities_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_lung",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_lung_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_lung_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_lung_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_lung_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_lung_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_lung_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_sleep",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_sleep_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_sleep_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_sleep_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_sleep_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_sleep_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_sleep_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_cat_energy",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_cat_energy_q1_a1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_cat_energy_q1_a2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_cat_energy_q1_a3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_cat_energy_q1_a4",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_cat_energy_q1_a5",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_cat_energy_q1_a6",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_cat_q_text"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "description": "hu_cat_description_four",
+        "displayInCP": false,
+        "id": "hu_cat_info_four",
+        "name": "hu_cat_name",
+        "order": 12,
+        "text": "hu_cat_info_text_four",
+        "type": "INFO"
+      }
+    ],
+    "publisherName": "Vishwanag",
+    "region": "UK",
+    "scoreAvailable": true,
+    "submissionPage": {
+      "buttonText": "hu_cat_submission_button",
+      "description": "hu_cat_submission_description",
+      "id": "hu_cat_submission",
+      "order": 13,
+      "text": "hu_cat_submission_text",
+      "type": "SUBMISSION"
+    },
+    "trademarkText": "hu_cat_notification_trademarkText"
+  },
+  "footnote": {
+    "enabled": false,
+    "text": ""
+  },
+  "goalEnabled": false,
+  "learnArticleIds": [],
+  "moduleId": "CAT",
+  "moduleName": "COPD Assessment Test (CAT)",
+  "notificationData": {
+    "body": "It is time to complete COPD Assessment Test (CAT)",
+    "offline": false,
+    "title": "COPD Assessment Test (CAT)"
+  },
+  "order": 12,
+  "ragThresholds": [
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 9,
+          "minValue": 0
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 20,
+          "minValue": 10
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 40,
+          "minValue": 21
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "timesOfDay": []
+  },
+  "status": "ENABLED",
+  "defaultName": "CAT"
+}

@@ -1,0 +1,41 @@
+{
+  "moduleId": "VR_12",
+  "moduleName": "",
+  "status": "ENABLED",
+  "order": 80,
+  "configBody": {
+    "id": "vr_12_configbody",
+    "calculatedQuestionnaire": true,
+    "isForManager": false,
+    "isHorizontal": false,
+    "isOnboarding": false,
+    "name": "VR-12 Item Health Survey",
+    "pages": [],
+    "publisherName": "SK",
+    "scoreAvailable": true,
+    "buttons": [
+      {
+        "type": "NEXT",
+        "text": "Next"
+      }
+    ]
+  },
+  "about": "VR-12 is a patient-reported global health measure that is used to assess your overall perspective of physical and mental health",
+  "footnote": {
+    "enabled": false,
+    "text": ""
+  },
+  "schedule": {
+    "timesPerDuration": 2,
+    "timesOfDay": []
+  },
+  "ragThresholds": [],
+  "learnArticleIds": [],
+  "version": 4,
+  "notificationData": {
+    "title": "Tell us how you are feeling",
+    "body": "VR-12 Item Health Survey",
+    "offline": false
+  },
+  "localizationPrefix": "hu_vr_12_"
+}

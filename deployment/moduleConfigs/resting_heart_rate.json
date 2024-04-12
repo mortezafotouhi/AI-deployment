@@ -1,0 +1,70 @@
+{
+  "moduleId": "RestingHeartRate",
+  "moduleName": "",
+  "status": "ENABLED",
+  "order": 43,
+  "configBody": {},
+  "about": "Your heart rate is the number of times your heart rate beats per minute (bpm). Your heart rate may vary between measurements and can be affected by certain heart conditions, stress, anxiety, hormonal changes, exercise, and some medications.\n\nWe recommend you take this measurement first thing in the morning, at the same time as your temperature and pulse oximetry.\n\nBefore taking this measurement, ensure you are rested for several minutes, and have not recently consumed caffeinated drinks.",
+  "schedule": {
+    "isoDuration": "P1W",
+    "timesPerDuration": 3,
+    "friendlyText": "friendlyText"
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 41,
+          "maxValue": 50
+        },
+        {
+          "minValue": 110,
+          "maxValue": 129
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 51,
+          "maxValue": 109
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 130
+        },
+        {
+          "maxValue": 40
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 21,
+  "footnote": {
+    "enabled": false,
+    "text": ""
+  },
+  "learnArticleIds": [],
+  "notificationData": {
+    "title": "Resting heart rate",
+    "body": "Time to submit Resting heart rate"
+  }
+}

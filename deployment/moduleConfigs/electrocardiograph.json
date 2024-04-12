@@ -1,0 +1,14 @@
+{
+    "about": "Syncing your KardiaMobile device will help your study team have access to your ECG values and progress over time.",
+    "configBody": {},
+    "order": 1,
+    "moduleName": "ECG",
+    "moduleId": "ECGAliveCor",
+    "ragThresholds": [],
+    "schedule": {
+        "friendlyText": "friendlyText",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "status": "ENABLED"
+}

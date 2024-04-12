@@ -1,0 +1,933 @@
+{
+  "about": "The Questionnaire feature is an easy way of collecting information about your health. Answering all questions and sharing this information will allow your care team to make better treatment decisions.",
+  "order": 14,
+  "configBody": {
+    "id": "c0ab9983-6fbe-4c9f-a8e4-8f354a8eae0b",
+    "name": "Nuisance Bleeding Scale",
+    "isForManager":false,
+    "publisherName":"NX",
+    "pages":[
+      {
+        "type": "INFO",
+                "id": "78d4c990-c827-4969-8257-cf06e223d677",
+                "order": 1,
+                "text": "Nuisance Bleeding Scale",
+                "description": "The following questions ask about any bruises or bleeding experiences you have had in the past 7 days.                                                              © 2020, Mercer University"
+            },
+            {
+        "type":"QUESTION",
+        "items":[
+           {
+              "logic":{
+                 "isEnabled":true,
+                 "rules":[
+                   {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"86c83665-0859-4659-9349-fbf4999454e0"
+                        }
+                     ],
+                     "jumpToId":"88765911-3e6f-4609-91f4-28eaa566396d"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"86c83665-0859-4659-9349-fbf4999454e0",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, have you experienced easy bruising?"
+         }
+      ],
+      "order":1
+   },
+   {
+        "type":"QUESTION",
+        "items":[
+           {
+             "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"088c8c94-d65b-4c62-919d-ba9674c5e7d5",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you experience easy bruising?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":2
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"35587f80-a34a-4b89-8cb1-0683505464a2",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of your easy bruising over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":3
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"88765911-3e6f-4609-91f4-28eaa566396d"
+                        }
+                     ],
+                     "jumpToId":"641a5f9e-f499-4d6b-9792-dfc0d690541a"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"88765911-3e6f-4609-91f4-28eaa566396d",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you bleed from small cuts?"
+         }
+      ],
+      "order":4
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"37e272fc-b14d-435b-bcfd-08e78007a53e",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you bleed from small cuts?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":5
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"f140ad78-6291-4967-86af-29824682e9e0",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of your bleeding from small cuts over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":6
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"641a5f9e-f499-4d6b-9792-dfc0d690541a"
+                        }
+                     ],
+                     "jumpToId":"0e79b0db-2a70-49dc-bf41-9a466c5a2e84"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"641a5f9e-f499-4d6b-9792-dfc0d690541a",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you have small red dots, “blotches” or circles on your skin?"
+         }
+      ],
+      "order":7
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"873d1bfa-43d2-43cf-b750-f65f42f8cbad",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you have small red dots, “blotches” or circles on your skin?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":8
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"b8a0f4ac-9500-48af-9abd-8ade684d738d",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of the small red dots, “blotches” or circles on your skin over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":9
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"0e79b0db-2a70-49dc-bf41-9a466c5a2e84"
+                        }
+                     ],
+                     "jumpToId":"70624e2c-78f5-43be-bb7f-824a450386b8"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"0e79b0db-2a70-49dc-bf41-9a466c5a2e84",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you have bruises on your hands and arms?"
+         }
+      ],
+      "order":10
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"5eb97756-94f5-4a9f-a72b-04fae54e6fc6",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you have bruises on your hands and arms?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":11
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"86e80353-5d3e-4a9e-a2d3-2aba354ecaa6",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of the bruises on your hands and arms over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":12
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"70624e2c-78f5-43be-bb7f-824a450386b8"
+                        }
+                     ],
+                     "jumpToId":"fb7c5be0-ab7c-4a51-9b75-941067438e17"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"70624e2c-78f5-43be-bb7f-824a450386b8",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you have bruises on your feet and legs?"
+         }
+      ],
+      "order":13
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"6737b221-3807-4bce-80cd-c48c8270a33c",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you have bruises on your feet and legs?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":14
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"d96a826b-f39e-47a1-804e-d84457552c7f",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of the bruises on your feet and legs over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":15
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"fb7c5be0-ab7c-4a51-9b75-941067438e17"
+                        }
+                     ],
+                     "jumpToId":"86293e5e-0506-4f1c-aa14-27692d330be1"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"fb7c5be0-ab7c-4a51-9b75-941067438e17",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you have bruises on other parts of your body?"
+         }
+      ],
+      "order":16
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"85687df0-c97c-4ec1-9b04-40e9f54c3c34",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you have bruises on other parts of your body?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":17
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"42eed7c6-1585-48bf-bf11-12a61694a292",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of the bruises on the other parts of your body over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":18
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"86293e5e-0506-4f1c-aa14-27692d330be1"
+                        }
+                     ],
+                     "jumpToId":"5ae6c05f-374d-4d06-927b-946830ee82e2"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"86293e5e-0506-4f1c-aa14-27692d330be1",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did your gums bleed while brushing your teeth or eating? "
+         }
+      ],
+      "order":19
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"a1ea3438-6f09-479e-92ba-d15b1dbd65ce",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did your gums bleed while brushing your teeth or eating?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":20
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"7bb4ba37-44dd-4d53-b67a-dcde58a0f349",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of your gums bleeding while brushing your teeth or eating over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":21
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":true,
+               "rules":[
+                  {
+                     "anyOf":[
+                        {
+                           "eq":"false",
+                           "questionId":"5ae6c05f-374d-4d06-927b-946830ee82e2"
+                        }
+                     ],
+                     "jumpToId":"14c95a08-c5a1-4a68-8f8b-4a9dd2666fac"
+                  }
+               ]
+            },
+            "description":"",
+            "id":"5ae6c05f-374d-4d06-927b-946830ee82e2",
+            "required":true,
+            "format":"BOOLEAN",
+            "order":1,
+            "text":"Over the past 7 days, did you have a nose bleed that lasted 10 minutes or less?"
+         }
+      ],
+      "order":22
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"e0638373-0d18-46f5-b7b7-2c23ecd3d5c0",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"On how many of the past 7 days did you have a nose bleed that lasted 10 minutes or less?",
+            "options":[
+               {
+                  "label":"1 day",
+                  "value":"0"
+               },
+               {
+                  "label":"2 days",
+                  "value":"1"
+               },
+               {
+                  "label":"3 days",
+                  "value":"2"
+               },
+               {
+                  "label":"4 days",
+                  "value":"3"
+               },
+               {
+                  "label":"5 days",
+                  "value":"4"
+               },
+               {
+                  "label":"6 days",
+                  "value":"5"
+               },
+               {
+                  "label":"7 days",
+                  "value":"6"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":23
+   },
+   {
+      "type":"QUESTION",
+      "items":[
+         {
+            "logic":{
+               "isEnabled":false
+            },
+            "description":"",
+            "id":"ca54539b-799a-48e9-b420-c85d0d593ce0",
+            "required":true,
+            "format":"TEXTCHOICE",
+            "order":1,
+            "text":"Please rate the severity of your nose bleed(s) that lasted 10 minutes or less over the past 7 days.",
+            "options":[
+               {
+                  "label":"Not at all severe",
+                  "value":"0"
+               },
+               {
+                  "label":"Mild",
+                  "value":"1"
+               },
+               {
+                  "label":"Moderate",
+                  "value":"2"
+               },
+               {
+                  "label":"Severe",
+                  "value":"3"
+               }
+            ],
+            "selectionCriteria":"SINGLE"
+         }
+      ],
+      "order":24
+   }
+],
+"submissionPage":{
+   "description":"Scroll up to change any of your answers. Changing answers may add new questions.",
+   "id":"14c95a08-c5a1-4a68-8f8b-4a9dd2666fac",
+   "text":"You’ve completed the questionnaire",
+   "buttonText":"Submit",
+   "order":25,
+   "type":"SUBMISSION"
+}
+  },
+  "moduleId": "Questionnaire",
+  "moduleName": "",
+  "ragThresholds": [],
+  "schedule": {
+    "friendlyText": "string",
+    "isoDuration": "P1D",
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED"
+}

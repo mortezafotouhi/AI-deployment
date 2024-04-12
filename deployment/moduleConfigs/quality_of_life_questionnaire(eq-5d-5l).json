@@ -1,0 +1,30 @@
+{
+    "moduleId": "EQ5D5L",
+    "moduleName": "EQ-5D-5L",
+    "ragThresholds": [],
+    "shortModuleName": "EQ5D",
+    "schedule": {
+      "friendlyText": "AS NEEDED",
+      "timesOfDay": [],
+      "timesPerDuration": 0
+    },
+    "notificationData": {
+    },
+    "status": "ENABLED",
+    "about": "EQ-5D is a standardised measure of health-related quality of life developed by the EuroQol Group to provide a simple, generic questionnaire for use in clinical and economic appraisal and population health surveys.<br><br>Responses are coded as single-digit numbers expressing the severity level selected in each dimension. For instance, ‘slight problems’ (e.g. ‘I have slight problems in walking about’) is always coded as ‘2’. The digits for the five dimensions can be combined in a 5-digit code that describes the respondent’s health state; for instance, 21111 means slight problems in the mobility dimension and no problems in any of the other dimensions.",
+    "order": 5,
+    "configBody": {
+      "toggleIndexValue": true,
+      "id": "eq5d5l_configbody",
+      "isForManager": false,
+      "publisherName": "MZ",
+      "questionnaireName": "hu_eq5d5l_moduleName",
+      "name": "EQ-5D-5L",
+      "questionnaireId": "eq5d5l_module",
+      "trademarkText": "hu_eq5d5l_trademark",
+      "region": "UK",
+      "isHorizontalFlow": true,
+      "pages": []
+    }
+  }
+  

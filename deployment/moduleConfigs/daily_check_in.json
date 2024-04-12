@@ -1,0 +1,62 @@
+{
+    "about": "By telling us how you are feeling on a daily basis, you are helping your team understand how they can better serve you.",
+    "order": 1,
+    "moduleId": "DailyCheckIn",
+    "moduleName": "",
+    "ragThresholds": [],
+    "configBody": {
+        "isForManager": false,
+        "id": "d17cdc5f-cb2f-4ca2-a56d-e419bf82a543",
+        "publisherName": "Default publisher",
+        "name": "Daily Check-in",
+        "pages": [
+            {
+                "type": "QUESTION",
+                "order": 1,
+                "items": [
+                    {
+                        "id": "fb529e6f-6c89-475f-a4cc-dc50741ea091",
+                        "format": "TEXTCHOICE",
+                        "required": true,
+                        "order": 1,
+                        "text": "Are you feeling better than yesterday?",
+                        "description": "",
+                        "options": [
+                            {
+                                "label": "Yes",
+                                "value": "1",
+                                "weight": 1
+                            },
+                            {
+                                "label": "No",
+                                "value": "0",
+                                "weight": 0
+                            },
+                            {
+                                "label": "Same",
+                                "value": "2",
+                                "weight": 2
+                            }
+                        ],
+                        "selectionCriteria": "SINGLE"
+                    }
+                ]
+            }
+        ],
+        "submissionPage": {
+            "description": "Scroll up to change your answers. Proceed to submit when you are ready.",
+            "id": "2204ba85-e6f1-48fb-8b5e-aaad0ca7f191",
+            "text": "Submit below to complete the activity.",
+            "buttonText": "Submit",
+            "order": 2,
+            "type": "SUBMISSION"
+        }
+    },
+    "schedule": {
+        "friendlyText": "ONCE A DAY",
+        "isoDuration": "P1D",
+        "timesOfDay": [],
+        "timesPerDuration": 1
+    },
+    "status": "ENABLED"
+}

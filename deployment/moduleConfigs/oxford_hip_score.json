@@ -1,0 +1,99 @@
+{
+    "moduleId": "OxfordHipScore",
+    "moduleName": "Oxford Hip Score",
+    "shortModuleName": "OHS",
+    "status": "ENABLED",
+    "order": 16,
+    "notificationData": {
+      "title": "Tell us how your hip is feeling",
+      "body": "Oxford Hip Score"
+    },
+    "about": "It’s important for your care team to know how well your hip is working and if it is getting better or worse. This short questionnaire asks you about how your hip is working and feeling in every day activities. A higher score is better, and the maximum score is 48. This questionnaire is the Oxford Hip Score.",
+    "configBody": {},
+    "localizationPrefix":"hu_ohs_",
+    "schedule": {
+      "friendlyText": "friendlyText",
+      "isoDuration": "P1W",
+      "timesOfDay": []
+    },
+    "ragThresholds": [
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 19.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "leftHipScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 19.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "rightHipScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 20.0,
+                    "maxValue": 29.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "leftHipScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 20.0,
+                    "maxValue": 29.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "rightHipScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 30.0,
+                    "maxValue": 39.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "leftHipScore",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 30.0,
+                    "maxValue": 39.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "rightHipScore",
+            "enabled": true
+        }
+    ],
+    "version": 1,
+    "learnArticleIds": []
+  }

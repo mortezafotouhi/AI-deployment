@@ -1,0 +1,14 @@
+{
+    "about": "For this activity, you’ll be asked to listen to a list of words that will be read out loud to you. You’ll then say back as many words as you can remember, speaking clearly into your phone’s microphone. This cycle will be repeated several times. You will be provided with step-by-step instructions throughout the activity. The test is meant to be difficult and do not be alarmed if you cannot complete the full task.<br><br>This app is for research purposes only. It is not a medical device and will not provide you with any medical information. Using this app does not impact your care and should not be substituted for clinical care. If you have any concerns after participating in this research, please contact your GP.",
+    "order": 1,
+    "configBody": {},
+    "moduleId": "RevereTest",
+    "moduleName": "Audio Word Recall",
+    "ragThresholds": [],
+    "schedule": {
+        "friendlyText": "string",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "status": "ENABLED"
+}

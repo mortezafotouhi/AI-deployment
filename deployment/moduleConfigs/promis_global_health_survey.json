@@ -1,0 +1,14 @@
+{
+    "about": "AstraZeneca",
+    "configBody": {},
+    "order": 3,
+    "moduleId": "PROMISGlobalHealth",
+    "moduleName": "",
+    "ragThresholds": [],
+    "schedule": {
+        "friendlyText": "friendlyText",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "status": "ENABLED"
+}

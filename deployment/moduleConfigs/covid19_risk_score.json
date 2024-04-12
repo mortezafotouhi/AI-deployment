@@ -1,0 +1,9 @@
+{
+    "about": "Welcome During the pandemic, there are a number of ways you can protect yourself and stay healthy. \n\n1. Follow your local guidelines \n\n2. Follow recommended hygiene practices e.g. hand-washing \n\n3. Use the Huma Health Shield education and learning tools, such as the COVID-19 Severity Risk Score \n\nThese measures could help you stay healthy, and will minimise the risk of you contracting or spreading the virus amongst your community. \n\nIn the following pages, we will help you to use our assessment tool to establish your likelihood of developing severe illness should you get COVID-19. This is for your education and will increase your awareness on how the COVID-19 pandemic could affect you. \n\nYou will be provided with information about what to do next, and there is the option to find out more in the Learn section of the App.",
+    "configBody": {},
+    "order": 1,
+    "moduleId": "Covid19RiskScore",
+    "moduleName": "string",
+    "ragThresholds": [],
+    "status": "ENABLED"
+}

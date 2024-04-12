@@ -1,0 +1,72 @@
+{
+  "about": "Your heart rate is the number of times your heart beats per minute (bpm). Most adults have a resting heart rate of 60-100 bpm. This can be affected by certain medical conditions, stress, anxiety, hormonal changes, exercise, and certain medication. Keep track of your resting heart rate by measuring first thing in the morning as it may vary throughout the day.",
+  "configBody": {
+    "dataSource": {
+      "cameraCollection": false,
+      "healthAppCollection": false,
+      "manualCollection": true
+    },
+    "isHRVEnabled": false
+  },
+  "footnote": {
+    "enabled": false
+  },
+  "learnArticleIds": [],
+  "moduleId": "HeartRate",
+  "notificationData": {},
+  "order": 1,
+  "ragThresholds": [
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 90,
+          "minValue": 51
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 50,
+          "minValue": 41
+        },
+        {
+          "maxValue": 130,
+          "minValue": 91
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 40
+        },
+        {
+          "minValue": 131
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "friendlyText": "friendlyText",
+    "isoDuration": "P1D",
+    "timesOfDay": [],
+    "timesPerDuration": 3
+  },
+  "status": "ENABLED"
+}

@@ -1,0 +1,1766 @@
+{
+  "about": "This questionnaire is designed to measure your overall health status. On the following screens, please answer the 36 questions of the Health Survey completely, honestly and without interruptions.",
+  "configBody": {
+    "id": "SF36Questionnaire",
+    "isForManager": false,
+    "name": "SF-36",
+    "pages": [
+      {
+        "description": "Please answer the 36 questions of the Health Survey completely, honestly and without interruptions.<br><br>Developed at RAND as part of the Medical Outcomes Study.",
+        "displayInCP": false,
+        "id": "sf36_info_short_form_health_survey",
+        "order": 1,
+        "text": "<b>Short form health survey (SF - 36)</b>",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q1",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Excellent",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Very good",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Good",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Fair",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Poor",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "In general, would you say your health is:"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q2",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Much better now than one year ago",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Somewhat better now than one year ago",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "About the same",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Somewhat worse now than one year ago",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Much worse than one year ago",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "<b>Compared to one year ago</b>, how would you rate your health in general <b>now</b>?"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "sf36_limitation_activities",
+        "order": 5,
+        "text": "The following items are about activities you might do during a typical day. Does <b>your health now limit you</b> in these activities? If so, how much?",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q3",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "<b>Vigorous activities</b>, such as running, lifting heavy objects, participating in strenuous sports."
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q4",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "<b>Moderate activities</b>, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q5",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Lifting or carrying groceries"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q6",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Climbing <b>several</b> flights of stairs"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q7",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Climbing <b>one</b> flight of stairs"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q8",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Bending, kneeling, or stooping"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q9",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Walking <b>more than a mile</b>"
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q10",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Walking <b>several blocks</b>"
+          }
+        ],
+        "order": 13,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q11",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Walking <b>one block</b>"
+          }
+        ],
+        "order": 14,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_limitation_activities_q12",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Yes, limited a lot",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Yes, limited a little",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "No, not limited at all",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Bathing or dressing yourself"
+          }
+        ],
+        "order": 15,
+        "type": "QUESTION"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "sf36_physical_health_problems",
+        "order": 16,
+        "text": "During the <b>past 4 weeks</b>, have you had any of the following problems with your work or other regular daily activities <b>as a result of your physical health?</b>",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_physical_health_problems_q13",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "Cut down the <b>amount of time</b> you spent on work or other activities"
+          }
+        ],
+        "order": 17,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_physical_health_problems_q14",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "<b>Accomplished less</b> than you would like"
+          }
+        ],
+        "order": 18,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_physical_health_problems_q15",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "Were limited in the <b>kind</b> of work or other activities"
+          }
+        ],
+        "order": 19,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_physical_health_problems_q16",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "Had <b>difficulty</b> performing the work or other activities (for example, it took extra effort)"
+          }
+        ],
+        "order": 20,
+        "type": "QUESTION"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "sf36_emotional_health_problems",
+        "order": 21,
+        "text": "During the <b>past 4 weeks</b>, have you had any of the following problems with your work or other regular daily activities <b>as a result of any emotional problems</b> (such as feeling depressed or anxious)?",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_emotional_health_problems_q17",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "Cut down the <b>amount of time</b> you spent on work or other activities"
+          }
+        ],
+        "order": 22,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_emotional_health_problems_q18",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "<b>Accomplished less</b> than you would like"
+          }
+        ],
+        "order": 23,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "BOOLEAN",
+            "id": "sf36_emotional_health_problems_q19",
+            "logic": {
+              "isEnabled": false
+            },
+            "order": 1,
+            "required": false,
+            "text": "Didn't do work or other activities as <b>carefully</b> as usual"
+          }
+        ],
+        "order": 24,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_social_activities_q20",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Slightly",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Moderately",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Severe",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Very Severe",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "During the <b>past 4 weeks</b> have emotional problems interfered with your normal social activities with family, friends, neighbors, or groups?"
+          }
+        ],
+        "order": 25,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_pain_q21",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "None",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Very mild",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "Mild",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "Moderate",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Severe",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "Very Severe",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "How much <b>bodily</b> pain have you had during the <b>past 4 weeks</b>?"
+          }
+        ],
+        "order": 26,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_pain_q22",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Not at all",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Slightly",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Moderately",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Severe",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Very Severe",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "During the <b>past 4 weeks</b>, how much did <b>pain</b> interfere with your normal work (including both work outside the home and housework)?"
+          }
+        ],
+        "order": 27,
+        "type": "QUESTION"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "sf36_energy_emotions",
+        "order": 28,
+        "text": "These questions are about how you feel and how things have been with you <b>during the past 4 weeks</b>. For each question, please give the one answer that comes closest to the way you have been feeling.",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_energy_fatigue_q23",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Most of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "Some of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "None of the time",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Did you feel full of pep?"
+          }
+        ],
+        "order": 29,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_emotional_well_being_q24",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Some of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you been a very nervous person?"
+          }
+        ],
+        "order": 30,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_emotional_well_being_q25",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Some of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you felt so down in the dumps that nothing could cheer you up?"
+          }
+        ],
+        "order": 31,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_emotional_well_being_q26",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Most of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "Some of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "None of the time",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you felt calm and peaceful?"
+          }
+        ],
+        "order": 32,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_energy_fatigue_q27",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Most of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "Some of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "None of the time",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Did you have a lot of energy?"
+          }
+        ],
+        "order": 33,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_emotional_well_being_q28",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Some of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you felt downhearted and blue?"
+          }
+        ],
+        "order": 34,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_energy_fatigue_q29",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Some of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Did you feel worn out?"
+          }
+        ],
+        "order": 35,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_emotional_well_being_q30",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Most of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "Some of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "None of the time",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you been a happy person?"
+          }
+        ],
+        "order": 36,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_energy_fatigue_q31",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "20",
+                "weight": 20
+              },
+              {
+                "label": "A good bit of the time",
+                "value": "40",
+                "weight": 40
+              },
+              {
+                "label": "Some of the time",
+                "value": "60",
+                "weight": 60
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "80",
+                "weight": 80
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Did you feel tired?"
+          }
+        ],
+        "order": 37,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_social_activities_q32",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Most of the time",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Some of the time",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "A little bit of the time",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "None of the time",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "During the <b>past 4 weeks</b>, how much of the time has <b>your physical health or emotional problems</b> interfered with your social activities (like visiting with friends, relatives, etc.)?"
+          }
+        ],
+        "order": 38,
+        "type": "QUESTION"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "sf36_general_health",
+        "order": 39,
+        "text": "How TRUE or FALSE is <b>each</b> of the following statements for you.",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q33",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Definitely true",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mostly true",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Don't know",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Mostly false",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Definitely false",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I seem to get sick a little easier than other people"
+          }
+        ],
+        "order": 40,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q34",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Definitely true",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Mostly true",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Don't know",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Mostly false",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Definitely false",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I am as healthy as anybody I know"
+          }
+        ],
+        "order": 41,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q35",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Definitely true",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "Mostly true",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Don't know",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Mostly false",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Definitely false",
+                "value": "100",
+                "weight": 100
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I expect my health to get worse"
+          }
+        ],
+        "order": 42,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "sf36_general_health_q36",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Definitely true",
+                "value": "100",
+                "weight": 100
+              },
+              {
+                "label": "Mostly true",
+                "value": "75",
+                "weight": 75
+              },
+              {
+                "label": "Don't know",
+                "value": "50",
+                "weight": 50
+              },
+              {
+                "label": "Mostly false",
+                "value": "25",
+                "weight": 25
+              },
+              {
+                "label": "Definitely false",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "My health is excellent"
+          }
+        ],
+        "order": 43,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "Josie Studd",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "sf36_submission",
+      "order": 44,
+      "text": "You’ve completed the questionnaire",
+      "type": "SUBMISSION"
+    }
+  },
+  "moduleId": "SF36",
+  "moduleName": "Short form health survey",
+  "order": 9,
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "emotionalWellBeingScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "emotionalWellBeingScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "emotionalWellBeingScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "physicalFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "physicalFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "physicalFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "limitationsPhysicalHealthScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "limitationsPhysicalHealthScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "limitationsPhysicalHealthScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "limitationsEmotionalProblemsScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "limitationsEmotionalProblemsScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "limitationsEmotionalProblemsScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "energyFatigueScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "energyFatigueScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "energyFatigueScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "socialFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "socialFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "socialFunctioningScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "painScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "painScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "painScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "generalHealthScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 75
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "generalHealthScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 25
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "generalHealthScore",
+      "enabled": true
+    }
+  ],
+  "schedule": {
+    "friendlyText": "ONCE A DAY",
+    "isoDuration": "P1D",
+    "timesOfDay": ["BEFORE_BREAKFAST"],
+    "timesPerDuration": 1
+  },
+  "status": "ENABLED",
+  "version": 16
+}

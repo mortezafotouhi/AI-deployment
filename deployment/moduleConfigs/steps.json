@@ -1,0 +1,14 @@
+{
+    "about": "You don’t have to go to a gym or run a marathon to get active. You just need to put one foot in front of the other. Walking is great for your body and it can lift your mood, too.\n\nCounting how many steps you’ve done will show you and your care team how active you are. All you need to do is keep your phone switched on and in your pocket, hand or bag, and this app will record your steps automatically. Even doing the housework and going around the shops will count.\n\nBy recording your steps every day, you can work with your care team to make sure you’re doing enough activity to keep your body and mind happy and healthy.",
+    "configBody": {},
+    "order": 1,
+    "moduleId": "Step",
+    "moduleName": "Steps",
+    "ragThresholds": [],
+    "schedule": {
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": [],
+        "timesPerDuration": 0
+    },
+    "status": "ENABLED"
+}

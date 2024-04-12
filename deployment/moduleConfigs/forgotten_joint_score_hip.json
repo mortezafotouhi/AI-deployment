@@ -1,0 +1,623 @@
+{
+  "moduleId": "FJSHip",
+  "moduleName": "FJS Hip Score",
+  "status": "ENABLED",
+  "order": 60,
+  "configBody": {
+    "id": "fjship_configbody",
+    "isForManager": false,
+    "name": "FJS Hip Score",
+    "pages": [
+      {
+        "description": "The following questions concern how often you are aware of your affected hip joint in everyday life. Please choose the most appropriate answer for each question.",
+        "id": "fjship_info",
+        "order": 1,
+        "text": "<b>Hip Questionnaire</b>",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_bed",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint in bed at night?"
+          }
+        ],
+        "order": 2,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_chair",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are sitting on a chair for more than one hour?"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_walking",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are walking for more than 15 minutes?"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_bath",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are taking a bath/shower?"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_traveling",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are traveling in a car?"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_climbing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are climbing stairs?"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_walking_uneven_ground",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are walking on uneven ground?"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_standing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are standing up from a low-sitting position?"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_standing_long_time",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are standing for long periods of time?"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_housework_gardening",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are doing housework or gardening?"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_hiking",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are taking a walk/hiking?"
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "fjs_hip_sport",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Never",
+                "value": "0",
+                "weight": 1
+              },
+              {
+                "label": "Almost never",
+                "value": "1",
+                "weight": 2
+              },
+              {
+                "label": "Seldom",
+                "value": "2",
+                "weight": 3
+              },
+              {
+                "label": "Sometimes",
+                "value": "3",
+                "weight": 4
+              },
+              {
+                "label": "Mostly",
+                "value": "4",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "Are you aware of your hip joint when you are doing your favorite sport?"
+          }
+        ],
+        "order": 13,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "SA",
+    "questionnaireId": "fjship_module",
+    "questionnaireName": "FJS Hip Score",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "fjship_submission",
+      "order": 14,
+      "text": "You've completed the questionnaire.",
+      "type": "SUBMISSION"
+    }
+  },
+  "about": "A healthy joint is not something you are aware of in everyday life. However, even the smallest problems can raise one's awareness of a joint. This means that you think of your joint or have your attention drawn to it. The following questions concern how often you are aware of your affected hip joint in everyday life.",
+  "schedule": {
+    "timesPerDuration": 0,
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": []
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "minValue": 70,
+          "maxValue": 100
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 30,
+          "maxValue": 70
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "value",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 30
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 12,
+  "notificationData": {
+    "title": "Tell us how your hip is feeling",
+    "body": "FJS Hip Score"
+  }
+}

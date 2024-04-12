@@ -1,0 +1,445 @@
+{
+  "about": "Please make sure you fill in the MG-ADL questionnaire before taking any medications.<br><br>Your generalized Myasthenia Gravis symptoms can vary from day to day. Painting a clear picture of how they affect you over time is the best way that you and your doctor can ensure that you receive the best care possible.",
+  "configBody": {
+    "buttons": [
+      {
+        "text": "Common.Next",
+        "type": "NEXT"
+      },
+      {
+        "text": "hu_mg_adl_submit_button",
+        "type": "SUBMIT"
+      }
+    ],
+    "calculatedQuestionnaire": true,
+    "id": "mg_adl_configbody",
+    "isForManager": false,
+    "maxScore": 24,
+    "name": "hu_mg_adl_name",
+    "pages": [
+      {
+        "description": "hu_mg_adl_description",
+        "displayInCP": false,
+        "id": "mg_adl_info",
+        "name": "hu_mg_adl_name",
+        "order": 1,
+        "text": "hu_mg_adl_text",
+        "type": "INFO"
+      },
+      {
+        "displayInCP": true,
+        "id": "mg_adl_info1",
+        "name": "hu_mg_adl_name",
+        "order": 2,
+        "text": "hu_mg_adl_text1",
+        "type": "INFO"
+      },
+      {
+        "displayInCP": false,
+        "id": "mg_adl_info2",
+        "name": "hu_mg_adl_name",
+        "order": 3,
+        "text": "hu_mg_adl_text2",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_symptoms_affecting_talking",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q1_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q1_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q1_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q1_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>1.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q1_text"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_symptoms_affecting_chewing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q2_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q2_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q2_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q2_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>2.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q2_text"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_symptoms_affecting_swallowing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q3_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q3_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q3_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q3_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>3.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q3_text"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_symptoms_affecting_breathing",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q4_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q4_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q4_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q4_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>4.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q4_text"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_impairment_brush_comb",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q5_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q5_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q5_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q5_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>5.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q5_text"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_impairment_arise_chair",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q6_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q6_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q6_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q6_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>6.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q6_text"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_double_vision",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q7_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q7_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q7_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q7_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>7.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q7_text"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "mg_adl_eyelid_dropping",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "hu_mg_adl_q8_option1",
+                "value": "0",
+                "weight": 0
+              },
+              {
+                "label": "hu_mg_adl_q8_option2",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_mg_adl_q8_option3",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_mg_adl_q8_option4",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "order": 1,
+            "prefix": "<b>8.</b> ",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_mg_adl_q8_text"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "SK",
+    "questionnaireId": "mg_adl_module",
+    "questionnaireName": "hu_mg_adl_name",
+    "scoreAvailable": true,
+    "submissionPage": {
+      "buttonText": "hu_mg_adl_submit_button",
+      "description": "hu_mg_adl_submission_description",
+      "id": "mg_adl_submission",
+      "name": "Myasthenia Gravis Activities of Daily Living",
+      "order": 12,
+      "text": "hu_mg_adl_submission_text",
+      "type": "SUBMISSION"
+    }
+  },
+  "learnArticleIds": [],
+  "goalEnabled": false,
+  "localizationPrefix": "hu_mg_adl_",
+  "moduleId": "MG_ADL",
+  "notificationData": {
+    "body": "It is time to complete MG-ADL questionnaire",
+    "offline": false,
+    "title": "MG-ADL"
+  },
+  "order": 1,
+  "ragThresholds": [
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 6,
+          "minValue": 0
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 14,
+          "minValue": 7
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 24,
+          "minValue": 15
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "isoDuration": "P2W",
+    "timesOfDay": [],
+    "timesPerDuration": 1
+  },
+  "status": "ENABLED"
+}

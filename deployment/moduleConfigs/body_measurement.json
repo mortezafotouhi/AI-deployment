@@ -1,0 +1,18 @@
+{
+  "about": "Waist circumference<br><br>Waist circumference is a good measurement to estimate the body fat content in your midsection. It is a useful and simple screening tool for weight-related and metabolic health problems.<br><br>Total body fat<br><br>Total body fat is a measure of how much of your body mass is made up of essential body fat and storage body fat. These are essential for body function and too much or too little can cause health problems. A balanced diet and regular exercise can help maintain the optimum level.<br><br>Visceral fat<br><br>Visceral fat measures the fat in and around your midsection, which plays an important part in protecting vital organs. Too much or too little visceral fat can cause long-term health problems. A balanced diet and regular exercise can help maintain the optimum level.<br><br>Hip circumference<br><br>Hip circumference is a useful measurement to help calculate the body fat content in your midsection. When combined with other measurements, it is a useful screening tool to help calculate your risk of weight-related and metabolic health problems.<br><br>Waist-to-hip ratio<br><br>Waist-to-hip ratio (WHR) compares the measurements of your hip and waist to estimate the body fat content in your midsection. It is a useful screening tool which can help estimate your risk of diseases such as heart disease and diabetes. By using a ratio, WHR adjusts for different body shapes.",
+  "configBody": {},
+  "order": 3,
+  "moduleId": "BodyMeasurement",
+  "moduleName": "Body Measurements",
+  "ragThresholds": [],
+  "notificationData": {
+    "title": "Time to take your body measurements",
+    "body": "Body Measurements"
+  },
+  "schedule": {
+    "friendlyText": "friendlyText",
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED"
+}

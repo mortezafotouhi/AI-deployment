@@ -1,0 +1,73 @@
+{
+  "about": "This is a quick assessment to understand the degree of breathlessness you are experiencing. The information you provide will help your care team monitor your lung function. Please complete this activity for your care team to be able to monitor trends over time.",
+  "configBody": {
+    "id": "748fea1e-ea78-4e6f-90fb-eac360378c7b",
+    "isForManager": false,
+    "name": "Breathlessness",
+    "pages": [
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "2840b669-fd2a-4500-aa43-843832b6f6f2",
+            "options": [
+              {
+                "label": "Not troubled by breathlessness except on strenuous exercise",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Short of breath when hurrying on the level or walking up a slight hill",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Walks slower than most people on the level, stops after a mile or so, or stops after 15 minutes walking at own pace",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Stops for breath after walking about 100 yds or after a few minutes on level ground",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Too breathless to leave the house, or breathless when undressing",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 1,
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Please rate your degree of breathlessness below."
+          }
+        ],
+        "order": 1,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "RT",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "c170789e-f3e0-4ad2-849f-6d4f6debbb6e",
+      "order": 2,
+      "text": "You’ve completed the questionnaire.",
+      "type": "SUBMISSION"
+    },
+    "trademarkText": "Used with the permission of the Medical Research Council"
+  },
+  "learnArticleIds": [],
+  "moduleId": "Breathlessness",
+  "notificationData": {},
+  "order": 10,
+  "ragThresholds": [],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

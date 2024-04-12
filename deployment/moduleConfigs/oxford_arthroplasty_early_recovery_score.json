@@ -1,0 +1,742 @@
+{
+  "moduleId": "OARS",
+  "moduleName": "Oxford Arthroplasty Early Recovery Score",
+  "status": "ENABLED",
+  "order": 63,
+  "configBody": {
+    "calculatedQuestionnaire": true,
+    "id": "oars_configbody",
+    "isForManager": false,
+    "localizationPrefix": "hu_oars",
+    "maxScore": 100,
+    "name": "OARS",
+    "pages": [
+      {
+        "description": "Don't spend too long on any one question. Your first choice of response is typically the right one. Please answer <b>ALL</b> questions. This questionnaire asks about your health <u><b>today.</b></u>",
+        "displayInCP": false,
+        "id": "oars_info1",
+        "name": "OARS",
+        "order": 1,
+        "text": "<b>Oxford Arthroplasty Early Recovery Score (OARS)</b>",
+        "type": "INFO"
+      },
+      {
+        "description": "",
+        "displayInCP": true,
+        "id": "oars_info2",
+        "name": "OARS",
+        "order": 2,
+        "text": "How much do you agree with these statements?",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_1",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've felt unwell"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_2",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've felt tired"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_3",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've felt faint"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_4",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "It's been painful in the affected area"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_5",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've had pain at night in the affected area"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_6",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "The affected area has felt swollen"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_7",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've had difficulty getting into bed"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_8",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've not been able to stand"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_9",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've not been able to walk"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_10",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've not slept well"
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_11",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've found it difficult to sleep"
+          }
+        ],
+        "order": 13,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_12",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've not been able to sleep due to the pain in the affected area"
+          }
+        ],
+        "order": 14,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_13",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've felt sick"
+          }
+        ],
+        "order": 15,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "oars_14",
+            "logic": {
+              "isEnabled": false
+            },
+            "name": "The Oxford Arthroplasty Early Recovery Score",
+            "options": [
+              {
+                "label": "Strongly disagree",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Disagree",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Neither agree nor disagree",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Agree",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Strongly agree",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "order": 1,
+            "required": false,
+            "selectionCriteria": "SINGLE",
+            "text": "I've lost my appetite"
+          }
+        ],
+        "order": 16,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "SK",
+    "questionnaireId": "oars_module",
+    "questionnaireName": "OARS",
+    "questionnaireType": "OBSERVATION_NOTES",
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers.",
+      "id": "oars_submission",
+      "name": "OARS",
+      "order": 51,
+      "text": "You've completed the questionnaire.",
+      "type": "SUBMISSION"
+    },
+    "trademarkText": "\u00a9 Oxford University Innovation Limited, 2020. All rights reserved."
+  },
+  "about": "This questionnaire helps your clinical team in assessing your recovery post surgery.",
+  "schedule": {
+    "friendlyText": "AS NEEDED"
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 67,
+          "maxValue": 100
+        }
+      ],
+      "color": "#CBEBF0",
+      "fieldName": "oarsScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "minValue": 34,
+          "maxValue": 66.9
+        }
+      ],
+      "color": "#FFDA9F",
+      "fieldName": "oarsScore",
+      "enabled": true
+    },
+    {
+      "type": "VALUE",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 33.9
+        }
+      ],
+      "color": "#FBCCD7",
+      "fieldName": "oarsScore",
+      "enabled": true
+    }
+  ],
+  "version": 7,
+  "notificationData": {
+    "title": "Tell us about your health",
+    "body": "Oxford Arthroplasty Early Recovery Score"
+  },
+  "localizationPrefix": "hu_oars"
+}

@@ -1,0 +1,327 @@
+{
+  "about": "A Simple Test to Help Manage Your Asthma.<br><br>The Asthma control Test is a commonly used tool by healthcare providers globally, and has been scientifically tested with hundreds of people with asthma.",
+  "configBody": {
+    "calculatedQuestionnaire": true,
+    "filledBy": "User",
+    "id": "AsthmaControlTestAdult",
+    "isForManager": false,
+    "isHorizontal": false,
+    "isOnboarding": false,
+    "maxScore": 25,
+    "name": "hu_act_adult_moduleName",
+    "pages": [
+      {
+        "description": "hu_act_adult_info_description",
+        "id": "hu_act_adult_info",
+        "order": 1,
+        "text": "hu_act_adult_info_text",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_act_adult_time",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "hu_act_adult_time_label1",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_act_adult_time_label2",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_act_adult_time_label3",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_act_adult_time_label4",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_act_adult_time_label5",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 2,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_act_adult_time_text",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 2,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_act_adult_shortness",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "hu_act_adult_shortness_label1",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_act_adult_shortness_label2",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_act_adult_shortness_label3",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_act_adult_shortness_label4",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_act_adult_shortness_label5",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 3,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_act_adult_shortness_text",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_act_adult_symptoms",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "hu_act_adult_symptoms_label1",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_act_adult_symptoms_label2",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_act_adult_symptoms_label3",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_act_adult_symptoms_label4",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_act_adult_symptoms_label5",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 4,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_act_adult_symptoms_text",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_act_adult_medication",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "hu_act_adult_medication_label1",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_act_adult_medication_label2",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_act_adult_medication_label3",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_act_adult_medication_label4",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_act_adult_medication_label5",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 5,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_act_adult_medication_text",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "hu_act_adult_control",
+            "logic": {
+              "isEnabled": false,
+              "reuse": {
+                "loop": {
+                  "isEnabled": false
+                },
+                "recall": {
+                  "isEnabled": false
+                }
+              }
+            },
+            "options": [
+              {
+                "label": "hu_act_adult_control_label1",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "hu_act_adult_control_label2",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "hu_act_adult_control_label3",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "hu_act_adult_control_label4",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "hu_act_adult_control_label5",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "order": 6,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "hu_act_adult_control_text",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      }
+    ],
+    "publisherName": "OJ",
+    "questionnaireName": "hu_act_adult_questionnaireName",
+    "region": "US",
+    "scoreAvailable": true,
+    "submissionPage": {
+      "buttonText": "hu_act_adult_submission_button",
+      "description": "hu_act_adult_submission_description",
+      "id": "hu_act_adult_submission",
+      "order": 7,
+      "text": "hu_act_adult_submission_text",
+      "type": "SUBMISSION"
+    }
+  },
+  "footnote": {
+    "enabled": false
+  },
+  "learnArticleIds": [],
+  "moduleId": "AsthmaControlTest",
+  "moduleName": "hu_act_adult_moduleName",
+  "notificationData": {
+    "body": "Time to take the Asthma Control Test",
+    "title": "Asthma Control Test"
+  },
+  "order": 21,
+  "ragThresholds": [],
+  "schedule": {
+    "isoDuration": "P3M",
+    "timesOfDay": [],
+    "timesPerDuration": 1
+  },
+  "status": "ENABLED"
+}

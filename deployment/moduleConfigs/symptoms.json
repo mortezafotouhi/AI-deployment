@@ -1,0 +1,589 @@
+{
+  "about": "Your symptoms are an important way for your care team to monitor your health. Please report your symptoms and their severity according to the frequency set by your care team. If you are continuously drowsy, unable to stand due to dizziness or have developed new chest pain, please seek urgent medical attention.",
+  "configBody": {
+    "complexSymptoms": [
+      {
+        "followUpQuestionIds": [
+          "b0169ecb-f149-4dec-9298-df53a7093e34"
+        ],
+        "name": "Shortness of Breath",
+        "scale": [
+          {
+            "severity": 1,
+            "value": "Mild"
+          },
+          {
+            "severity": 2,
+            "value": "Moderate"
+          },
+          {
+            "severity": 3,
+            "value": "Severe"
+          }
+        ],
+        "scaleUpdateDateTime": "2023-05-18T18:15:28.310713Z"
+      },
+      {
+        "followUpQuestionIds": [
+          "91e72a68-66b2-417d-9cd7-8f2bcd0e9de9"
+        ],
+        "name": "Wheeze",
+        "scale": [
+          {
+            "severity": 1,
+            "value": "Mild"
+          },
+          {
+            "severity": 2,
+            "value": "Moderate"
+          },
+          {
+            "severity": 3,
+            "value": "Severe"
+          }
+        ],
+        "scaleUpdateDateTime": "2023-05-19T13:33:16.973641Z"
+      },
+      {
+        "followUpQuestionIds": [
+          "6b7d90e2-1c4c-4da6-8b87-9400774a0898"
+        ],
+        "name": "Cough",
+        "scale": [
+          {
+            "severity": 1,
+            "value": "Mild"
+          },
+          {
+            "severity": 2,
+            "value": "Moderate"
+          },
+          {
+            "severity": 3,
+            "value": "Severe"
+          }
+        ],
+        "scaleUpdateDateTime": "2023-05-19T13:36:54.990461Z"
+      },
+      {
+        "followUpQuestionIds": [
+          "cdb238e9-c868-4e7f-b8f5-437f86aac305"
+        ],
+        "name": "Chest Pain/Tightness",
+        "scale": [
+          {
+            "severity": 1,
+            "value": "Mild"
+          },
+          {
+            "severity": 2,
+            "value": "Moderate"
+          },
+          {
+            "severity": 3,
+            "value": "Severe"
+          }
+        ],
+        "scaleUpdateDateTime": "2023-05-19T13:44:03.498801Z"
+      },
+      {
+        "followUpQuestionIds": [
+          "bc17ecf0-76eb-4b27-ba50-eb90b0729c9a"
+        ],
+        "name": "Awaken from sleep due to asthma",
+        "scale": [
+          {
+            "severity": 1,
+            "value": "No"
+          },
+          {
+            "severity": 2,
+            "value": "Yes"
+          }
+        ],
+        "scaleUpdateDateTime": "2023-05-19T14:52:25.856418Z"
+      }
+    ],
+    "followUpQuestionIds": [],
+    "pages": [
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "b0169ecb-f149-4dec-9298-df53a7093e34",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Animal Fur",
+                "value": "1"
+              },
+              {
+                "label": "Cigarette Smoke",
+                "value": "2"
+              },
+              {
+                "label": "Dust",
+                "value": "3"
+              },
+              {
+                "label": "Mold",
+                "value": "4"
+              },
+              {
+                "label": "Cosmetic Sprays",
+                "value": "5"
+              },
+              {
+                "label": "Pollen",
+                "value": "6"
+              },
+              {
+                "label": "Weather",
+                "value": "7"
+              },
+              {
+                "label": "Exercise",
+                "value": "8"
+              },
+              {
+                "label": "Cold/Flu",
+                "value": "9"
+              },
+              {
+                "label": "Work Related",
+                "value": "10"
+              },
+              {
+                "label": "Other",
+                "value": "11"
+              }
+            ],
+            "order": 1,
+            "placeholder": "",
+            "required": false,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What triggered your symptom?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 1,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "91e72a68-66b2-417d-9cd7-8f2bcd0e9de9",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Animal Fur",
+                "value": "1"
+              },
+              {
+                "label": "Cigarette Smoke",
+                "value": "2"
+              },
+              {
+                "label": "Dust",
+                "value": "3"
+              },
+              {
+                "label": "Mold",
+                "value": "4"
+              },
+              {
+                "label": "Cosmetic Sprays",
+                "value": "5"
+              },
+              {
+                "label": "Pollen",
+                "value": "6"
+              },
+              {
+                "label": "Weather",
+                "value": "7"
+              },
+              {
+                "label": "Exercise",
+                "value": "8"
+              },
+              {
+                "label": "Cold/Flu",
+                "value": "9"
+              },
+              {
+                "label": "Work Related",
+                "value": "10"
+              },
+              {
+                "label": "Other",
+                "value": "11"
+              }
+            ],
+            "order": 3,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What triggered your symptom?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "6b7d90e2-1c4c-4da6-8b87-9400774a0898",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Animal Fur",
+                "value": "1"
+              },
+              {
+                "label": "Cigarette Smoke",
+                "value": "2"
+              },
+              {
+                "label": "Dust",
+                "value": "3"
+              },
+              {
+                "label": "Mold",
+                "value": "4"
+              },
+              {
+                "label": "Cosmetic Sprays",
+                "value": "5"
+              },
+              {
+                "label": "Pollen",
+                "value": "6"
+              },
+              {
+                "label": "Weather",
+                "value": "7"
+              },
+              {
+                "label": "Exercise",
+                "value": "8"
+              },
+              {
+                "label": "Cold/Flu",
+                "value": "9"
+              },
+              {
+                "label": "Work Related",
+                "value": "10"
+              },
+              {
+                "label": "Other",
+                "value": "11"
+              }
+            ],
+            "order": 4,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What triggered your symptom?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "cdb238e9-c868-4e7f-b8f5-437f86aac305",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Animal Fur",
+                "value": "1"
+              },
+              {
+                "label": "Cigarette",
+                "value": "2"
+              },
+              {
+                "label": "Dust",
+                "value": "3"
+              },
+              {
+                "label": "Mold",
+                "value": "4"
+              },
+              {
+                "label": "Cosmetic Sprays",
+                "value": "5"
+              },
+              {
+                "label": "Pollen",
+                "value": "6"
+              },
+              {
+                "label": "Weather",
+                "value": "7"
+              },
+              {
+                "label": "Exercise",
+                "value": "8"
+              },
+              {
+                "label": "Cold/Flu",
+                "value": "9"
+              },
+              {
+                "label": "Work Related",
+                "value": "10"
+              },
+              {
+                "label": "Other",
+                "value": "11"
+              }
+            ],
+            "order": 4,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What triggered your symptom?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "",
+            "format": "TEXTCHOICE",
+            "id": "bc17ecf0-76eb-4b27-ba50-eb90b0729c9a",
+            "logic": {
+              "isEnabled": false
+            },
+            "options": [
+              {
+                "label": "Animal Fur",
+                "value": "1"
+              },
+              {
+                "label": "Cigarette Smoke",
+                "value": "2"
+              },
+              {
+                "label": "Dust",
+                "value": "3"
+              },
+              {
+                "label": "Mold",
+                "value": "4"
+              },
+              {
+                "label": "Cosmetic Sprays",
+                "value": "5"
+              },
+              {
+                "label": "Pollen",
+                "value": "6"
+              },
+              {
+                "label": "Weather",
+                "value": "7"
+              },
+              {
+                "label": "Exercise",
+                "value": "8"
+              },
+              {
+                "label": "Cold/Flu",
+                "value": "9"
+              },
+              {
+                "label": "Work Related",
+                "value": "10"
+              },
+              {
+                "label": "Other",
+                "value": "11"
+              }
+            ],
+            "order": 5,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "MULTIPLE",
+            "text": "What triggered your symptom?",
+            "type": "MULTICHOICE"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      }
+    ]
+  },
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "goalEnabled": false,
+  "learnArticleIds": [],
+  "moduleId": "SymptomV2",
+  "moduleName": "",
+  "notificationData": {},
+  "order": 4,
+  "ragThresholds": [
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "Shortness of Breath",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 2,
+          "minValue": 1
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "Shortness of Breath",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 3,
+          "minValue": 3
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "Wheeze",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 2,
+          "minValue": 1
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "Wheeze",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 3,
+          "minValue": 3
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "Cough",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 2,
+          "minValue": 1
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "Cough",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 3,
+          "minValue": 3
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "Chest Pain/Tightness",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 2,
+          "minValue": 1
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "Chest Pain/Tightness",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 3,
+          "minValue": 3
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "Awaken from sleep due to asthma",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 1,
+          "minValue": 1
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "Awaken from sleep due to asthma",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 3,
+          "minValue": 2
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "defaultName": "Symptoms"
+}

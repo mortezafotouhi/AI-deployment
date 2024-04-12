@@ -1,0 +1,53 @@
+{
+  "moduleId": "WHQ",
+  "moduleName": "",
+  "status": "ENABLED",
+  "order": 85,
+  "configBody": {
+    "id": "whq_configbody",
+    "isForManager": false,
+    "publisherName": "SK",
+    "questionnaireName": "hu_whq_name",
+    "name": "hu_whq_name",
+    "maxScore": 41,
+    "calculatedQuestionnaire": true,
+    "questionnaireId": "whq_module",
+    "submissionPage": {
+      "type": "SUBMISSION",
+      "name": "Wound Healing Questionnaire",
+      "id": "whq_submission",
+      "order": 22,
+      "text": "You've completed the questionnaire.",
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions."
+    }
+  },
+  "about": "Wound Healing Questionnaire is taken for assessment of surgical-site infection in closed primary wounds after hospital discharge.",
+  "schedule": {
+    "timesPerDuration": 0,
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": []
+  },
+  "ragThresholds": [
+    {
+      "type": "VALUE",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "minValue": 0,
+          "maxValue": 41
+        }
+      ],
+      "color": "#FFFFFF",
+      "fieldName": "value",
+      "enabled": true
+    }
+  ],
+  "version": 2,
+  "notificationData": {
+    "title": "Wound Healing Questionnaire",
+    "body": "It is time to complete Wound Healing Questionnaire",
+    "offline": false
+  },
+  "localizationPrefix": "hu_whq_"
+}

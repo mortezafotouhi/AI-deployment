@@ -1,0 +1,32 @@
+Sections: 66190f1357708b8ed82499c4
+deployment_id: 66190f1257708b8ed82499c2
+keyActions:
+- 66190f1657708b8ed82499dc
+- 66190f1757708b8ed82499de
+- 66190f176d1c188b60b51e5d
+- 66190f176d1c188b60b51e5f
+- 66190f1757708b8ed82499e3
+- 66190f1857708b8ed82499e5
+- 66190f1857708b8ed82499e8
+module_configs_ids:
+- 66190f136d1c188b60b51e48
+- 66190f1357708b8ed82499c6
+- 66190f1457708b8ed82499c9
+- 66190f146d1c188b60b51e4d
+- 66190f1457708b8ed82499ce
+- 66190f156d1c188b60b51e51
+- 66190f1557708b8ed82499d2
+- 66190f156d1c188b60b51e55
+- 66190f1657708b8ed82499d6
+- 66190f1657708b8ed82499d9
+module_list:
+- Medications
+- Oxford Arthroplasty Early Change Score
+- Oxford Arthroplasty Early Recovery Score
+- Oxford Hip Score
+- Health Score(long-term health risks)
+- Journal
+- Oxford Knee Score
+- Oxford Shoulder Score
+- Symptoms
+- Knee Injury and Osteoarthritis Outcome Score

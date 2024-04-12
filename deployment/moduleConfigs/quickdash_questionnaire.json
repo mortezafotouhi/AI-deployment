@@ -1,0 +1,25 @@
+{
+  "moduleId": "DashScore",
+  "moduleName": "quickDash Questionnaire",
+  "status": "ENABLED",
+  "order": 73,
+  "configBody": {
+    "id": "dash_questionnaire",
+    "isForManager": false,
+    "name": "quickDash Questionnaire",
+    "buttons": [
+      {
+        "type": "NEXT",
+        "text": "Next"
+      }
+    ]
+  },
+  "schedule": {
+    "isoDuration": "P1W",
+    "friendlyText": "friendlyText",
+    "timesOfDay": []
+  },
+  "ragThresholds": [],
+  "learnArticleIds": [],
+  "version": 5
+}

@@ -1,0 +1,85 @@
+{
+   "moduleId": "Questionnaire",
+   "moduleName": "",
+   "ragThresholds": [],
+   "schedule": {
+      "friendlyText": "AS NEEDED",
+      "timesOfDay": [],
+      "timesPerDuration": 0
+   },
+   "status": "ENABLED",
+   "about": "",
+   "order": 6,
+   "configBody": {
+      "id": "9de937a4-9ef6-41f2-a14f-9a7c11578e3a",
+      "name": "Sleep",
+      "isForManager": false,
+      "pages":[
+         {
+            "type": "INFO",
+            "id": "7b3e0363-4038-4b2d-a037-6f798e8349be",
+            "text": "Sleep",
+            "description": "Let's talk about sleep!",
+            "order": 1
+         },
+         {
+            "type": "QUESTION",
+            "items": [
+                {
+                    "logic": {
+                        "isEnabled": false
+                    },
+                    "description": "",
+                    "id": "973015c1-acd3-412c-868e-d9a10a917f60",
+                    "required": true,
+                    "format": "NUMERIC",
+                    "upperBound": 1000,
+                    "lowerBound": 0,
+                    "text": "On average, how many hours per night did you sleep in the last week? ",
+                    "order": 1
+                }
+            ],
+            "order": 2
+        },
+        {
+         "type": "QUESTION",
+         "items": [
+            {
+               "logic": {
+                  "isEnabled": false
+               },
+               "description": "",
+               "id": "9143eac0-0c62-4b50-939d-7f3f772b3280",
+               "required": true,
+               "format": "TEXTCHOICE",
+               "text": "How was your sleep compared to last week? ",
+               "order": 1,
+               "options": [
+                  {
+                     "label": "Better",
+                     "value": "0"
+                  },
+                  {
+                     "label": "Same",
+                     "value": "1"
+                  },
+                  {
+                     "label": "Worse",
+                     "value": "2"
+                  }
+               ],
+               "selectionCriteria": "SINGLE"
+            }],
+         "order": 3
+         }
+      ],
+      "submissionPage": {
+         "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+         "id": "720a5e0f-aeb4-4d13-8ab6-6f5de206b7bb",
+         "text": "You’ve completed the questionnaire",
+         "buttonText": "Submit",
+         "order": 4,
+         "type": "SUBMISSION"
+      }
+   }
+}

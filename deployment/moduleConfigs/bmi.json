@@ -1,0 +1,62 @@
+{
+  "about": "Body Mass Index is a measure of body size that takes into account your height and weight and is used to check whether your weight is healthy. The higher the BMI, the higher the risk for developing diseases such as heart disease and diabetes.",
+  "configBody": {},
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "BMI",
+  "moduleName": "Weight & BMI",
+  "notificationData": {},
+  "order": 9,
+  "ragThresholds": [
+    {
+      "color": "#FBCCD7",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 3,
+      "thresholdRange": [
+        {
+          "maxValue": 18.5
+        },
+        {
+          "minValue": 30
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#CBEBF0",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 1,
+      "thresholdRange": [
+        {
+          "maxValue": 24.9,
+          "minValue": 18.6
+        }
+      ],
+      "type": "VALUE"
+    },
+    {
+      "color": "#FFDA9F",
+      "enabled": true,
+      "fieldName": "value",
+      "severity": 2,
+      "thresholdRange": [
+        {
+          "maxValue": 29.9,
+          "minValue": 25
+        }
+      ],
+      "type": "VALUE"
+    }
+  ],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

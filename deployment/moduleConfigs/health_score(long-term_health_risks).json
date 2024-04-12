@@ -1,0 +1,480 @@
+{
+  "configBody": {
+    "calculatedQuestionnaire": false,
+    "id": "5e41621a-b587-4309-9d2c-da2aa64833fa",
+    "isForManager": false,
+    "isHorizontal": false,
+    "isOnboarding": false,
+    "name": "Onboarding",
+    "pages": [
+      {
+        "description": "On the following screens, please tap the statement that best answers your past medical history.",
+        "id": "4f3b611f-1bc2-4a42-9353-858168011b76",
+        "order": 1,
+        "text": "Onboarding Questionnaire",
+        "type": "INFO"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "4c55ab51-2431-4d86-81a2-131280a391f8",
+            "logic": {
+              "isEnabled": true,
+              "rules": [
+                {
+                  "anyOf": [
+                    {
+                      "eq": "3",
+                      "questionId": "4c55ab51-2431-4d86-81a2-131280a391f8"
+                    }
+                  ],
+                  "jumpToId": "9ed1fe0d-46e3-4671-8545-f2f3c5ff99d2"
+                }
+              ]
+            },
+            "options": [
+              {
+                "label": "Yes, still do",
+                "value": "1"
+              },
+              {
+                "label": "Yes, but I quit",
+                "value": "2"
+              },
+              {
+                "label": "No",
+                "value": "3"
+              }
+            ],
+            "order": 2,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you ever smoked?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 2,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "19e8dd22-0341-4799-bb37-0450cec772ca",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "1-10 cigarettes",
+                "value": "1"
+              },
+              {
+                "label": "11-20 cigarettes",
+                "value": "2"
+              },
+              {
+                "label": "More than 21 cigarettes",
+                "value": "3"
+              }
+            ],
+            "order": 3,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "If so, how much?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 3,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "1fdc955a-37b8-4498-9056-aa71effb5180",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "1 to 5 years",
+                "value": "1"
+              },
+              {
+                "label": "6 to 10 years",
+                "value": "2"
+              },
+              {
+                "label": "11 to 15 years",
+                "value": "3"
+              },
+              {
+                "label": "16 years or more",
+                "value": "4"
+              }
+            ],
+            "order": 4,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "If so, how long?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 4,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "9ed1fe0d-46e3-4671-8545-f2f3c5ff99d2",
+            "logic": {
+              "isEnabled": true,
+              "rules": [
+                {
+                  "anyOf": [
+                    {
+                      "eq": "3",
+                      "questionId": "9ed1fe0d-46e3-4671-8545-f2f3c5ff99d2"
+                    }
+                  ],
+                  "jumpToId": "18f4823b-539f-4671-90fd-c2e6a201058a"
+                }
+              ]
+            },
+            "options": [
+              {
+                "label": "Yes, still do",
+                "value": "1"
+              },
+              {
+                "label": "Yes, but I quit",
+                "value": "2"
+              },
+              {
+                "label": "No",
+                "value": "3"
+              }
+            ],
+            "order": 5,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you ever vaped?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 5,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "a164f493-08c9-4ec2-a4d2-359b287470e3",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "1 to 5 years",
+                "value": "1"
+              },
+              {
+                "label": "6 to 10 years",
+                "value": "2"
+              },
+              {
+                "label": "11 to 15 years",
+                "value": "3"
+              },
+              {
+                "label": "16 years or more",
+                "value": "4"
+              }
+            ],
+            "order": 6,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "If so, how long?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 6,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "18f4823b-539f-4671-90fd-c2e6a201058a",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "0",
+                "value": "1"
+              },
+              {
+                "label": "1",
+                "value": "2"
+              },
+              {
+                "label": "2",
+                "value": "3"
+              },
+              {
+                "label": "3",
+                "value": "4"
+              },
+              {
+                "label": "4",
+                "value": "5"
+              },
+              {
+                "label": "5",
+                "value": "6"
+              },
+              {
+                "label": "6 or more",
+                "value": "7"
+              }
+            ],
+            "order": 7,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "How many times have you been to the Hospital, Emergency Room or Urgent Care in the past year related to your condition?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 7,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "6aab7ef0-27fd-475e-991a-99480547a00f",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "0",
+                "value": "1"
+              },
+              {
+                "label": "1",
+                "value": "2"
+              },
+              {
+                "label": "2",
+                "value": "3"
+              },
+              {
+                "label": "3",
+                "value": "4"
+              },
+              {
+                "label": "4",
+                "value": "5"
+              },
+              {
+                "label": "5",
+                "value": "6"
+              },
+              {
+                "label": "6 or more",
+                "value": "7"
+              }
+            ],
+            "order": 8,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "How many times over the past year have you needed steroid pills or shots?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 8,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "ecf67751-4a6f-4308-9e4f-a82bc7174a22",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "Yes",
+                "value": "1"
+              },
+              {
+                "label": "No",
+                "value": "2"
+              }
+            ],
+            "order": 9,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Have you gotten the pneumonia vaccine?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 9,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "09ff41a7-f0e3-4889-b2a8-c38383b5c80b",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "options": [
+              {
+                "label": "Yes",
+                "value": "1"
+              },
+              {
+                "label": "No",
+                "value": "2"
+              }
+            ],
+            "order": 10,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Do you get the annual flu vaccine?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 10,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please select the option which applies to you.",
+            "format": "TEXTCHOICE",
+            "id": "fc523e09-c828-4257-9b7d-f59617b471e6",
+            "logic": {
+              "isEnabled": true,
+              "rules": [
+                {
+                  "anyOf": [
+                    {
+                      "eq": "2",
+                      "questionId": "fc523e09-c828-4257-9b7d-f59617b471e6"
+                    }
+                  ],
+                  "jumpToId": "55637991-2a09-45ee-82b4-5f36e010bdc7"
+                }
+              ]
+            },
+            "options": [
+              {
+                "label": "Yes",
+                "value": "1"
+              },
+              {
+                "label": "No",
+                "value": "2"
+              }
+            ],
+            "order": 11,
+            "placeholder": "",
+            "required": true,
+            "selectionCriteria": "SINGLE",
+            "text": "Do you know your FEV1 value?",
+            "type": "TEXTCHOICE"
+          }
+        ],
+        "order": 11,
+        "type": "QUESTION"
+      },
+      {
+        "items": [
+          {
+            "description": "Please submit your FEV1 reading below.",
+            "format": "NUMERIC",
+            "id": "181c4abd-c9f1-4ffa-9d2b-c7a8e1d2f496",
+            "logic": {
+              "isEnabled": false,
+              "rules": []
+            },
+            "lowerBound": 0,
+            "maxDecimals": 2,
+            "multipleAnswers": {
+              "enabled": false,
+              "maxAnswers": 0
+            },
+            "order": 12,
+            "required": true,
+            "text": "If yes, what is it?",
+            "type": "NUMERIC",
+            "units": [
+              "L"
+            ],
+            "upperBound": 7
+          }
+        ],
+        "order": 12,
+        "type": "QUESTION"
+      }
+    ],
+    "scoreAvailable": false,
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "55637991-2a09-45ee-82b4-5f36e010bdc7",
+      "order": 13,
+      "text": "You’ve completed the questionnaire.",
+      "type": "SUBMISSION"
+    }
+  },
+  "footnote": {
+    "enabled": true,
+    "text": "For use only by patients of Pulmonary Internist deemed suitable by, and under the supervision of a P.I. physician."
+  },
+  "learnArticleIds": [],
+  "moduleId": "Questionnaire",
+  "moduleName": "Onboarding",
+  "notificationData": {},
+  "order": 13,
+  "ragThresholds": [],
+  "schedule": {
+    "timesOfDay": []
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

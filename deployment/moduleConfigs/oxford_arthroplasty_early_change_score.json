@@ -1,0 +1,742 @@
+{
+    "order": 40,
+    "moduleId": "OACS",
+    "moduleName": "Oxford Arthroplasty Early Change Score",
+    "status": "ENABLED",
+    "about": "This questionnaire has been devised to gain a deeper understanding of your perspective on your treatment following your surgery.",
+    "schedule": {
+      "friendlyText": "AS NEEDED",
+      "timesOfDay": [],
+      "timesPerDuration": 0
+    },
+    "notificationData": {
+      "title": "Tell us about your health",
+      "body": "Oxford Arthroplasty Early Change Score"
+    },
+    "ragThresholds": [
+      {
+        "color": "#CBEBF0",
+        "enabled": true,
+        "fieldName": "oacsScore",
+        "severity": 1,
+        "thresholdRange": [
+          {
+            "maxValue": 50.0,
+            "minValue": 26.0
+          }
+        ],
+        "type": "VALUE"
+      },
+      {
+        "color": "#FFDA9F",
+        "enabled": true,
+        "fieldName": "oacsScore",
+        "severity": 2,
+        "thresholdRange": [
+          {
+            "maxValue": 25.9,
+            "minValue": -25.9
+          }
+        ],
+        "type": "VALUE"
+      },
+      {
+        "color": "#FBCCD7",
+        "enabled": true,
+        "fieldName": "oacsScore",
+        "severity": 3,
+        "thresholdRange": [
+          {
+            "maxValue": -26.0,
+            "minValue": -50.0
+          }
+        ],
+        "type": "VALUE"
+      }
+    ],
+    "configBody": {
+      "id": "oacs_configbody",
+      "isForManager": false,
+      "publisherName": "SK",
+      "questionnaireName": "OACS",
+      "name": "OACS",
+      "maxScore": 50,
+      "calculatedQuestionnaire": true,
+      "questionnaireId": "oacs_module",
+      "localizationPrefix": "hu_oacs",
+      "trademarkText": "© Oxford University Innovation Limited, 2020. All rights reserved.",
+      "pages": [
+        {
+          "type": "INFO",
+          "id": "oacs_info1",
+          "order": 1,
+          "displayInCP": false,
+          "name": "OACS",
+          "text": "<b>Oxford Arthroplasty Early Change Score (OACS)</b>",
+          "description": "Don't spend too long on any one question. Your first choice of response is typically the right one. Please answer <b>ALL</b> questions. This questionnaire asks about your health <u><b>today compared to before your operation.</b></u>"
+        },
+        {
+          "type": "INFO",
+          "id": "oacs_info2",
+          "order": 2,
+          "displayInCP": true,
+          "name": "OACS",
+          "text": "Thinking about the state of your health <u><b>before the operation</b></u>, how would you rate the following?",
+          "description": ""
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_1",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your ability to stand compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 3
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_2",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your ability to walk compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 4
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_3",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your ability to walk up stairs compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 5
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_4",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your ability to walk down stairs compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 6
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_5",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your strength compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 7
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_6",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "How comfortable you feel when sitting compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 8
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_7",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your pain in the affected area compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 9
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_8",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your pain in the affected area when walking compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 10
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_9",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your appetite compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 11
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_10",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your mood compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 12
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_11",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your energy level compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 13
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_12",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your sleep compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 14
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_13",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "How you feel overall compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 15
+        },
+        {
+          "type": "QUESTION",
+          "items": [
+            {
+              "logic": {
+                "isEnabled": false
+              },
+              "description": "",
+              "name": "The Oxford Arthroplasty Early Change Score",
+              "id": "oacs_14",
+              "required": false,
+              "format": "TEXTCHOICE",
+              "order": 1,
+              "text": "Your pain when trying to sleep compared to before the operation?",
+              "options": [
+                {
+                  "label": "Much worse",
+                  "value": "-2",
+                  "weight": -2
+                },
+                {
+                  "label": "Worse",
+                  "value": "-1",
+                  "weight": -1
+                },
+                {
+                  "label": "The same",
+                  "value": "0",
+                  "weight": 0
+                },
+                {
+                  "label": "Better",
+                  "value": "1",
+                  "weight": 1
+                },
+                {
+                  "label": "Much better",
+                  "value": "2",
+                  "weight": 2
+                }
+              ],
+              "selectionCriteria": "SINGLE"
+            }
+          ],
+          "order": 16
+        }
+      ],
+      "submissionPage": {
+        "type": "SUBMISSION",
+        "name": "OACS",
+        "id": "oacs_submission",
+        "order": 51,
+        "text": "You've completed the questionnaire.",
+        "buttonText": "Submit",
+        "description": "Scroll up to change any of your answers."
+      }
+    }
+  }

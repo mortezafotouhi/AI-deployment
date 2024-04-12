@@ -1,0 +1,19 @@
+{
+  "about": "Use this space to record your diet and water intake along with any additional information you would like to share with your care team or for your own personal record. Please note, journal entries are not monitored in real-time so <b>if you are concerned about your health you should contact your doctor directly or attend the emergency department.</b>",
+  "configBody": {},
+  "footnote": {
+    "enabled": true,
+    "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+  },
+  "learnArticleIds": [],
+  "moduleId": "Journal",
+  "notificationData": {},
+  "order": 7,
+  "ragThresholds": [],
+  "schedule": {
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "status": "ENABLED",
+  "goalEnabled": false
+}

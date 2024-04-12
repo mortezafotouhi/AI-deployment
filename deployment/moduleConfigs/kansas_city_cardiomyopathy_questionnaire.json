@@ -1,0 +1,1584 @@
+{
+  "moduleId": "KCCQ",
+  "moduleName": "Kansas City Cardiomyopathy Questionnaire",
+  "localizationPrefix": "hu_kccq_",
+  "ragThresholds": [
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "overallSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "overallSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "overallSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "physicalLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "physicalLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "physicalLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "symptomStability",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "symptomStability",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "symptomStability",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "symptomFrequency",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "symptomFrequency",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "symptomFrequency",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "symptomBurden",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "symptomBurden",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "symptomBurden",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "totalSymptomScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "totalSymptomScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "totalSymptomScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "selfEfficacy",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "selfEfficacy",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "selfEfficacy",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "qualityOfLife",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "qualityOfLife",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "qualityOfLife",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "socialLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "socialLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "socialLimitation",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FBCCD7",
+      "severity": 3,
+      "fieldName": "clinicalSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 75,
+          "maxValue": 100
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#FFDA9F",
+      "severity": 2,
+      "fieldName": "clinicalSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 50,
+          "maxValue": 75
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "color": "#CBEBF0",
+      "severity": 1,
+      "fieldName": "clinicalSummaryScore",
+      "type": "VALUE",
+      "thresholdRange": [
+        {
+          "minValue": 25,
+          "maxValue": 50
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "schedule": {
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": [],
+    "timesPerDuration": 0
+  },
+  "notificationData": {
+    "title": "KCCQ",
+    "body": "It is time to complete KCCQ questionnaire"
+  },
+  "status": "ENABLED",
+  "about": "This questionnaire asks about your health status, your symptoms, and how these affect your quality of life as well as your physical and social function. The questionnaire takes 4-6 minutes to complete. There are no right or wrong answers. Please select the answer that best applies to you.",
+  "order": 10,
+  "configBody": {
+    "isForManager": false,
+    "publisherName": "PM",
+    "name": "KCCQ",
+    "id": "611dffd20d4e78155ae591ef",
+    "pages": [
+      {
+        "type": "INFO",
+        "id": "kccq_info_screen_1",
+        "order": 1,
+        "text": "<b>Kansas City Cardiomyopathy Questionnaire (KCCQ)</b>",
+        "description": "The following questions refer to your heart failure and how it may affect your life. Please read and complete the following questions. There are no right or wrong answers. Please select the answer that best applies to you.",
+        "displayInCP": false
+      },
+      {
+        "type": "INFO",
+        "id": "kccq_physical_limitation_info",
+        "order": 2,
+        "text": " ",
+        "description": "Heart failure affects different people in different ways. Some feel shortness of breath while others feel fatigue. Please indicate how much you are limited by heart failure (shortness of breath or fatigue) in your ability to do the following activities over the past 2  weeks.",
+        "displayInCP": true
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1a",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Dressing yourself",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 3
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1b",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Showering/Bathing",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 4
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1c",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Walking 1 block on level ground",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 5
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1d",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Doing yardwork, housework or carrying groceries",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 6
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1e",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Climbing a flight of stairs without stopping",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 7
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_physical_limitation_q1f",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Hurrying or jogging (as if to catch a bus)",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Extremely Limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit Limited",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately Limited",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly Limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all Limited",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Limited for other reasons or did not do the activity",
+                "value": "0",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 8
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_stability_q2",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Compared with 2 weeks ago, have your symptoms of heart failure (shortness of breath, fatigue or ankle swelling) changed? My symptoms of heart failure have become...",
+            "options": [
+              {
+                "label": "Much worse",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Slightly worse",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Not changed",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly better",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Much better",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "I've had no symptoms over the last 2 weeks",
+                "value": "6",
+                "weight": 3
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 9
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_frequency_q3",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how many times did you have swelling in your feet, ankles or legs when you woke up in the morning?",
+            "options": [
+              {
+                "label": "Every morning",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "3 or more times a week, but not every day",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "1-2 times a week",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Less than once a week",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Never over the past 2 weeks",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 10
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_burden_q4",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how much has swelling in your feet, ankles or legs bothered you? It has been...",
+            "options": [
+              {
+                "label": "Extremely bothersome",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit bothersome",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately bothersome",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly bothersome",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all bothersome",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "I've had no swelling",
+                "value": "6",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 11
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_frequency_q5",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, on average, how many times has fatigue limited your ability to do what you want?",
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Several times per day",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "At least once a day",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "3 or more times per week but not every day",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "1-2 times per week",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Less than once a week",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "label": "Never over the past 2 weeks",
+                "value": "7",
+                "weight": 7
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 12
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_burden_q6",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how much has your fatigue bothered you? It has been...",
+            "options": [
+              {
+                "label": "Extremely bothersome",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit bothersome",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately bothersome",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly bothersome",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all bothersome",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "I've had no fatigue",
+                "value": "6",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 13
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_frequency_q7",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 14,
+            "text": "Over the past 2 weeks, on average, how many times has shortness of breath limited your ability to do what you wanted?",
+            "options": [
+              {
+                "label": "All of the time",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Several times per day",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "At least once a day",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "3 or more times per week but not every day",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "1-2 times per week",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Less than once a week",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "label": "Never over the past 2 weeks",
+                "value": "7",
+                "weight": 7
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 14
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_burden_q8",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how much has your shortness of breath bothered you? It has been...",
+            "options": [
+              {
+                "label": "Extremely bothersome",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Quite a bit bothersome",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately bothersome",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly bothersome",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Not at all bothersome",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "I've had no shortness of breath",
+                "value": "6",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 15
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_symptom_frequency_q9",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, on average, how many times have you been forced to sleep sitting up in a chair or with at least 3 pillows to prop you up because of shortness of breath?",
+            "options": [
+              {
+                "label": "Every night",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "3 or more times a week, but not every day",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "1-2 times a week",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Less than once a week",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Never over the past 2 weeks",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 16
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_self_efficacy_q10",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Heart failure symptoms can worsen for a number of reasons. How sure are you that you know what to do, or whom to call, if your heart failure gets worse?",
+            "options": [
+              {
+                "label": "Not at all sure",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Not very sure",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Somewhat sure",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Mostly sure",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Completely sure",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 17
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_self_efficacy_q11",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "How well do you understand what things you are able to do to keep your heart failure symptoms from getting worse? (for example, weighing yourself; eating a low salt diet, etc.)",
+            "options": [
+              {
+                "label": "Do not understand at all",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Do not understand very well",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Somewhat understand",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Mostly understand",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Completely understand",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 18
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_quality_of_life_q12",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how much has your heart failure limited your enjoyment of life?",
+            "options": [
+              {
+                "label": "It has extremely limited my enjoyment of life",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "It has limited my enjoyment of life quite a bit",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "It has moderately limited my enjoyment of life",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "It has slightly limited my enjoyment of life",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "It has not limited my enjoyment of life at all",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 19
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_quality_of_life_q13",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "If you had to spend the rest of your life with your heart failure the way it is right now, how would you feel about this?",
+            "options": [
+              {
+                "label": "Not at all satisfied",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Mostly dissatisfied",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Somewhat satisfied",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Mostly satisfied",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Completely satisfied",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 20
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_quality_of_life_q14",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Over the past 2 weeks, how often have you felt discouraged or down in the dumps because of your heart failure?",
+            "options": [
+              {
+                "label": "I felt that way all of the time",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "I felt that way most of the time",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "I occasionally felt that way",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "I rarely felt that way",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "I never felt that way",
+                "value": "5",
+                "weight": 5
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 21
+      },
+      {
+        "type": "INFO",
+        "id": "kccq_social_limitation_info",
+        "order": 22,
+        "text": " ",
+        "description": "How much does your heart failure affect your lifestyle? Please indicate how your heart failure may have limited your participation in the following activities over the past 2 weeks.",
+        "displayInCP": true
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_social_limitation_q15a",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Hobbies, recreational activities",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Severely limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Limited quite a bit",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Did not limit at all",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Does not apply or did not do for other reasons",
+                "value": "6",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 23
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_social_limitation_q15b",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Working or doing household chores",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Severely limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Limited quite a bit",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Did not limit at all",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Does not apply or did not do for other reasons",
+                "value": "6",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 24
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_social_limitation_q15c",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Visiting family or friends out of your home",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Severely limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Limited quite a bit",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Did not limit at all",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Does not apply or did not do for other reasons",
+                "value": "6",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 25
+      },
+      {
+        "type": "QUESTION",
+        "items": [
+          {
+            "logic": {
+              "isEnabled": false
+            },
+            "description": "",
+            "id": "kccq_social_limitation_q15d",
+            "required": false,
+            "format": "TEXTCHOICE",
+            "order": 1,
+            "text": "Intimate relationships with loved ones",
+            "skipByWeight": 0,
+            "options": [
+              {
+                "label": "Severely limited",
+                "value": "1",
+                "weight": 1
+              },
+              {
+                "label": "Limited quite a bit",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "label": "Moderately",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "label": "Slightly limited",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "label": "Did not limit at all",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "label": "Does not apply or did not do for other reasons",
+                "value": "6",
+                "weight": 0
+              }
+            ],
+            "selectionCriteria": "SINGLE"
+          }
+        ],
+        "order": 26
+      }
+    ],
+    "submissionPage": {
+      "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+      "id": "kccq_submission_page",
+      "text": "You’ve completed the questionnaire",
+      "buttonText": "Submit",
+      "order": 27,
+      "type": "SUBMISSION"
+    }
+  }
+}

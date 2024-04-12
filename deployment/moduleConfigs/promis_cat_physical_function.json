@@ -1,0 +1,29 @@
+{
+  "about": "The Questionnaire feature is an easy way of collecting information about your health. Answering all questions and sharing this information will allow your care team to make better treatment decisions.",
+  "configBody": {
+    "id": "7b8fa99a-27d1-454e-99a9-1a5bd12efdb8",
+    "isForManager": false,
+    "name": "PROMIS CAT Physical Function",
+    "pages": [],
+    "publisherName": "RT",
+    "questionnaireType": "PROMIS_PHYSICAL",
+    "scoreAvailable": true,
+    "submissionPage": {
+      "buttonText": "Submit",
+      "description": "Scroll up to change any of your answers.Changing answers may add new questions.",
+      "id": "6bc2c592-6a8f-401b-9a7d-cf6a835b37eb",
+      "order": 2,
+      "text": "You’ ve completed the questionnaire",
+      "type": "SUBMISSION"
+    }
+  },
+  "learnArticleIds": [],
+  "moduleId": "Questionnaire",
+  "order": 9,
+  "ragThresholds": [],
+  "schedule": {
+    "friendlyText": "AS NEEDED",
+    "timesOfDay": []
+  },
+  "status": "ENABLED"
+}
